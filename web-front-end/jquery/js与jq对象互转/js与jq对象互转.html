@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>js与jq对象互转</title>
+		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+		<script type="text/javascript">
+// 			<!-- js修改页面内容 -->
+// 			function changeJS(){
+// 				var div1 = document.getElementById("div1");
+// 				div1.innerHTML = "JS修改页面内容成功!"
+// 			}
+// 			<!-- JQuery修改页面内容 -->
+// 			$(function(){
+// 				$("#btn").click(function(){
+// 					$("#div1").html("JQuery修改页面内容成功!");
+// 				});
+// 			});
+// 			
+			<!-- js--->jq -->
+			function changeJS(){
+				var div1 = document.getElementById("div1");
+				
+				$(div1).html("js-----jq成功")
+			}
+			<!-- jq--->js -->
+			$(function(){
+				$("#btn").click(function(){
+					var $div1 = $("#div1")[0];
+					$div1.innerHTML = "jq-----js成功";
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<button onclick="changeJS()">js修改页面内容</button>&nbsp;
+		<button id="btn">JQuery修改页面内容</button>
+		<div id="div1">
+			这是内容将被修改!
+		</div>
+	</body>
+</html>

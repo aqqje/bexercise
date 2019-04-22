@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>添加与遍历</title>
+		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+		<script type="text/javascript">
+			var cityArr = [
+				["衡阳市", "湘潭市", "湘西市", "岳阳市"],
+				["杭州市", "宁波市", "嘉兴市", "义乌市"],
+				["广州市", "中山市", "佛山市", "潮阳市"]
+			]
+			
+			$(function(){
+				$("#btn1").click(function(){
+					// $("#div1").append("<font color='red' size='7'>来，互相伤害啊</font>");
+					// $("<font color='red' size='7'>来，互相伤害啊</font>").appendTo("#div1");
+					// $("#div1").prepend("<font color='red' size='7'>来，互相伤害啊</font>");
+					// $("#div1").after("<font color='red' size='7'>来，互相伤害啊</font>");
+				});
+			});
+			
+			$.each(cityArr, function(i, n){
+				console.log(i+"======="+n)
+			})
+			$(cityArr).each(function(i, n){
+				$(n).each(function(i,n){
+					console.log(i+">>>>"+n)
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<input type="button" id="btn1" value="来，互相伤害啊" />
+		<div id="div1">
+			这里将添加内容
+		</div>
+	</body>
+</html>

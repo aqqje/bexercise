@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商品左右选择</title>
+		<script type="text/javascript">
+			function selectOne(){
+				// 获取左边select对象
+				var leftSelect = document.getElementById("leftSelect");
+				var rightSelect = document.getElementById("rightSelect");
+				var options = leftSelect.options;
+				for(var i=0; i<options.length; i++ ){
+					var option = options[i]
+					if(option.selected){
+						rightSelect.appendChild(option);
+					}
+				}
+			}
+			function selectAll(){
+				// 获取左边select对象
+				var leftSelect = document.getElementById("leftSelect");
+				var rightSelect = document.getElementById("rightSelect");
+				var options = leftSelect.options;
+				for(var i=options.length - 1; i>=0; i-- ){
+					var option = options[i]
+					rightSelect.appendChild(option);
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<table border="1px" align="center" width="60%" height="400px">
+			<tr>
+				<td>分类名称</td>
+				<td>手机数码</td>
+			</tr>
+			<tr>
+				<td>分类描述</td>
+				<td>这里面都是手机数码</td>
+			</tr>
+			<tr>
+				<td>分类商品</td>
+				<td height="300px">
+					<div style="float: left; padding-left: 10px">
+						<select id="leftSelect" multiple="multiple" style="height: 200px; width: 120%;" ondblclick="selectOne()">
+							<option>aa</option>
+							<option>bb</option>
+							<option>cc</option>
+							<option>dd</option>
+							<option>ee</option>
+							<option>ff</option>
+							<option>ss</option>
+						</select>
+						<a href="#" style="text-decoration: none;" onclick="selectOne()">&gt;&gt;</button><br/>
+						<a href="#" style="text-decoration: none;" onclick="selectAll()">&gt;&gt;&gt;</button>
+					</div>
+					<div  style="float: right; padding-right: 20px" >
+						<select id="rightSelect" multiple="multiple" style="height: 200px; width: 120%;">
+							<option>kk</option>
+							<option>jj</option>
+							<option>uu</option>
+							<option>yy</option>
+							<option>ii</option>
+							<option>oo</option>
+							<option>pp</option>
+						</select>
+						<a href="#" style="text-decoration: none;">&lt;&lt;</button><br/>
+						<a href="#" style="text-decoration: none;">&lt;&lt;&lt;</button>
+					</div>
+					<div style="clear: both;"></div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">提交</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表格隔行换色</title>
+		<script>
+			function init(){
+				// 获取表格对象
+				var tb = document.getElementById("tb");
+				// 获取表格的行数组
+				var rows = tb.rows;
+				for(var i = 0; i < rows.length; i++){
+					var row = rows[i];
+					row.bgColor = "green";
+					if(i%2==0){
+						row.bgColor = "red";
+					}
+					
+				}
+			}
+			// 全选与全不选
+			function checkAll(){
+				// 确定事件 onclick
+				// 获取全选对象与状态
+				var checkA = document.getElementById("checkA");
+				var checked = checkA.checked;
+				// 获取被选对象数组
+				var checks = document.getElementsByName("checkone");
+				// 将被选对象中的状态与全选对象保持一致
+				for(var i=0; i < checks.length; i++){
+					checks[i].checked = checked;
+				}
+			}
+		</script>
+	</head>
+	<body onload="init()">
+		<table id="tb" align="center" border="1px solid gray" width="80%">
+			<tr>
+				<td><input type="checkbox" onclick="checkAll()" id="checkA"></td>
+				<td>分类ID</td>
+				<td>分类名称</td>
+				<td>分类商品</td>
+				<td>分类描述</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="checkone"></td>
+				<td>分类ID</td>
+				<td>分类名称</td>
+				<td>分类商品</td>
+				<td>分类描述</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="checkone"></td>
+				<td>分类ID</td>
+				<td>分类名称</td>
+				<td>分类商品</td>
+				<td>分类描述</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="checkone"></td>
+				<td>分类ID</td>
+				<td>分类名称</td>
+				<td>分类商品</td>
+				<td>分类描述</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="checkone"></td>
+				<td>分类ID</td>
+				<td>分类名称</td>
+				<td>分类商品</td>
+				<td>分类描述</td>
+				<td>操作</td>
+			</tr>
+		</table>
+	</body>
+</html>

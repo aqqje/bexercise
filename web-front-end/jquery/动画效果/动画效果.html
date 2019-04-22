@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>动画效果</title>
+		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+		<script  type="text/javascript">
+			$(function(){
+				$("#show").click(function(){
+					// 显示
+					// $("#img1").show(1000);
+					// 滑动
+					// $("#img1").slideUp(2000);
+					// 淡入
+					// $("#img1").fadeIn(1000);
+					// 自定义
+					$("#img1").animate({width: "600px", height: "400px", opacity: 1}, 2000);
+				});
+				$("#hide").click(function(){
+					// 隐藏
+					// $("#img1").hide(2000);
+					// 滑动
+					// $("#img1").slideDown(2000);
+					// 淡出
+					// $("#img1").fadeOut(1000);
+					// 自定义
+					$("#img1").animate({width: "600px", height: "400px", opacity: 0}, 2000);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<button type="button" id="show">显示</button>&nbsp;
+		<button type="button" id="hide">隐藏</button><br />
+		<img style="display: none;" id="img1" src="../img/1.jpg" width="600px"  height="400px"/>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>广告显示与隐藏</title>
+		<script>
+			function hideAD(){
+				var img = document.getElementById("img1");
+				img.style.display = "none";
+			}
+			function showAD(){
+				var img = document.getElementById("img1");
+				img.style.display = "block";
+				setTimeout("hideAD()", 3000);
+			}
+			function init(){
+				setTimeout("showAD()", 3000);
+			}
+		</script>
+	</head>
+	<body onload="init()">
+		<img src="../img/1.jpg" id="img1" style="display: none;"/>
+	</body>
+</html>

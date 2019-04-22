@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>js检验</title>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script>
+			// 显示提示
+			function showTips(spanId, msg){
+				$("#spanId").html("<font style='color: green;'>"+ msg +"</font>");
+			}
+			// 用户校验
+			function checkUsername(){
+				var span = $("#span_username");
+				if($("#username").val().length < 6){
+					span.html("<font style='color: red;'>对不起太短了</font>");
+					return false;
+				}else{
+					span.html("<font style='color: green;'>用户可用</font>");
+					return true;
+				}
+			}
+			// 密码校验
+			function checkPassword(){
+				var span = $("#span_password");
+				if($("#password").val().length < 6){
+					span.html("<font style='color: red;'>不安全</font>");
+					return false;
+				}else{
+					span.html("<font style='color: green;'>密码可用</font>");
+					return true;
+				}
+			}
+			// 确认密码校验
+			function checkRepassword(){
+				var span = $("#span_repassword");
+				if(($("#repassword").val()) != ($("#password").val())){
+					span.html("<font style='color: red;'>两次密码不一致!</font>");
+					return false;
+				}else{
+					span.html("");
+					return true;
+				}
+			}
+			// 邮箱校验 
+			function checkEmail(){
+				var span = $("#span_email");
+				if(/^[A-Za-z\d]+([-_.][A-Za-z\d]+)*@([A-Za-z\d]+[-.])+[A-Za-z\d]{2,4}$/.test($("#email").val())){
+					span.html("<font style='color: green;'>邮箱可用</font>");
+					return true;
+				}else{
+					span.html("<font style='color: red;'>邮箱不正确!</font>");
+					return false;
+				}
+			}
+			// 手机号校验
+			function checkPhone(){
+				var span = $("#span_phone");
+				if(/^1([38][0-9]|4[579]|5[0-3,5-9]|6[6]|7[0135678]|9[89])\d{8}$/.test($("#phone").val())){
+					span.html("<font style='color: green;'>手机可用</font>");
+					return true;
+				}else{
+					span.html("<font style='color: red;'>手机号不正确!</font>");
+					return false;
+				}
+			}
+			// 提交校验
+			function checkForm(){
+				var flag = checkUsername()&&checkPassword()&&checkRepassword()&&checkEmail()&&checkPhone();
+				return flag;
+			}
+		</script>
+	</head>
+	<body>
+		<form action="../图片轮播/图片轮播.html" method="get" onsubmit="return checkForm()">
+			用户名:<input type="text" id="username" onfocus="showTips('span_username','用户名不得小于6位字符!')" onblur="checkUsername()" onkeyup="checkUsername()"/>
+			<span id="span_username"></span><br />
+			密码: <input type="password" id="password" onfocus="showTips('span_password','用户名不得小于6位字符!')" onblur="checkPassword()" onkeyup="checkPassword()" />
+			<span id="span_password"></span><br />
+			确认密码: <input type="password" id="repassword" onfocus="showTips('span_repassword', '两次密码必须一致!')" onblur="checkRepassword()" onkeyup="checkRepassword()"/>
+			<span id="span_repassword"></span><br />
+			Email: <input type="text" id="email" onfocus="showTips('span_email','请输入正确的邮箱!')" onblur="checkEmail()" onkeyup="checkEmail()"/>
+			<span id="span_email"></span><br />
+			手机号: <input type="tel" id="phone" onfocus="showTips('span_phone', '请输入正确的手机号!')" onblur="checkPhone()" onkeyup="checkPhone()"/>
+			<span id="span_phone"></span><br />
+			<input type="submit" value="注册"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>遍历原理</title>
+		<script type="text/javascript">
+			var cityArr = [
+				["衡阳市", "湘潭市", "湘西市", "岳阳市"],
+				["杭州市", "宁波市", "嘉兴市", "义乌市"],
+				["广州市", "中山市", "佛山市", "潮阳市"]
+			]
+			
+			function call1(i, n){
+				console.log("123"+i+"====="+n)
+			}
+			function bili(cityArr, call1){
+				
+				for(var i=0; i<cityArr.length; i++){
+					var item = cityArr[i];
+					call1(i,item);
+				}
+			}
+			bili(cityArr, call1);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

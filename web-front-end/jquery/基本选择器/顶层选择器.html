@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>基本选择器</title>
+		<style>
+			#one, #two, #three{
+				width: 200px;
+				height: 200px;
+				border: 1px solid gray;
+				background-color: gray;
+				float: left;
+				margin-right: 20px;
+			}
+			.mini{
+				width: 45%;
+				height: 45%;
+				border: 1px solid palegreen;
+				background-color: palegreen;
+				float: left;
+				margin-left: 5px;
+				margin-top: 5px;
+			}
+		</style>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script>
+// 			子元素选择器: 选择器1 > 选择器2
+			$(function(){
+				$("#btn1").click(function(){
+					$("body > div").css("background-color","royalblue");
+				});
+			});
+// 			后代选择器: 选择器1 儿孙
+			$(function(){
+				$("#btn2").click(function(){
+					$("body div").css("background-color","royalblue");
+				});
+			});
+// 			相邻兄弟选择器:选择器 + 选择器: 找出紧挨着的一个弟弟
+			$(function(){
+				$("#btn3").click(function(){
+					$("#two+div").css("background-color","royalblue");
+				});
+			});
+// 			找出所有弟弟：选择器1~选择器
+			$(function(){
+				$("#btn4").click(function(){
+					$("#one~div").css("background-color","royalblue");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" id="btn1" value="找出body下面的子div" />&nbsp;
+		<input type="button" id="btn2" value="找出body下面的所有div" />&nbsp;
+		<input type="button" id ="btn3" value="找出id为two的相邻弟弟div" />&nbsp;
+		<input type="button" id="btn4" value="找出id为one的所有弟弟div" /><br/>
+		<div id="one">
+			<div class="mini">1-1</div>
+		</div>
+		<div id="two">
+			<div class="mini">2-1</div>
+			<div class="mini">2-2</div>
+		</div>
+		<div id="three">
+			<div class="mini">3-1</div>
+			<div class="mini">3-2</div>
+			<div class="mini">3-3</div>
+		</div>
+	</body>
+</html>

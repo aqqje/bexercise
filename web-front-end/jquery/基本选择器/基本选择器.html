@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>基本选择器</title>
+		<style>
+			#one, #tow, #three{
+				width: 200px;
+				height: 200px;
+				border: 1px solid gray;
+				background-color: gray;
+				float: left;
+				margin-right: 20px;
+			}
+			.mini{
+				width: 45%;
+				height: 45%;
+				border: 1px solid palegreen;
+				background-color: palegreen;
+				float: left;
+				margin-left: 5px;
+				margin-top: 5px;
+			}
+		</style>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script>
+// 			元素选择器: div
+			$(function(){
+				$("#elmSel").click(function(){
+					$("div").css("background-color","royalblue");
+				});
+			});
+// 			id选择器: #id
+			$(function(){
+				$("#idSel").click(function(){
+					$("#three").css("background-color","royalblue");
+				});
+			});
+// 			类选择器: .class
+			$(function(){
+				$("#claSel").click(function(){
+					$(".mini").css("background-color","royalblue");
+				});
+			});
+// 			通配符选择器: *
+			$(function(){
+				$("#Sel").click(function(){
+					$("*").css("background-color","royalblue");
+				});
+			});
+// 			选择器, 选择器: 选择器, 选择器
+			$(function(){
+				$("#selSel").click(function(){
+					$("#one, .mini").css("background-color","royalblue");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" id="elmSel" value="元素选择器" />&nbsp;
+		<input type="button" id="idSel" value="id选择器" />&nbsp;
+		<input type="button" id ="claSel" value="类型选择器" />&nbsp;
+		<input type="button" id="Sel" value="通配符选择器" />&nbsp;
+		<input type="button" id="selSel" value="选择器, 选择器" /><br />
+		<div id="one">
+			<div class="mini">1-1</div>
+		</div>
+		<div id="tow">
+			<div class="mini">2-1</div>
+			<div class="mini">2-2</div>
+		</div>
+		<div id="three">
+			<div class="mini">3-1</div>
+			<div class="mini">3-2</div>
+			<div class="mini">3-3</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>省市联动</title>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script type="text/javascript">
+			var provinceArr = ["湖南省","浙江省","广东省"];
+			var cityArr = [
+				["衡阳市", "湘潭市", "湘西市", "岳阳市"],
+				["杭州市", "宁波市", "嘉兴市", "义乌市"],
+				["广州市", "中山市", "佛山市", "潮阳市"]
+			];
+			$(window).load(function(){
+				$.each(provinceArr,function(i, n){
+					$("#provinces").append("<option value='"+ i +"'>"+ n +"</option>")
+				});
+			});
+			
+			$(function(){
+				$("#provinces").change(function(){
+					$("#citys option").remove(":gt(0)");
+					$.each(cityArr[this.value], function(i, item){
+						$("#citys").append("<option value='"+ i +"'>"+ item +"</option>")
+					});
+				});
+			});
+			
+			
+		</script>
+	</head>
+	<body>
+		<select id="provinces">
+			<option value="-1">--请选择--</option>
+		</select>
+		<select id="citys">
+			<option>--请选择--</option>
+		</select>
+	</body>
+</html>

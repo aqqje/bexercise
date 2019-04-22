@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>页面广告弹出</title>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script>
+			function showAD(){
+				$("#img1").slideDown();
+				setTimeout("hideAD()", 2000)
+				
+			}
+			function hideAD(){
+				$("#img1").slideUp();
+			}
+			$(function(){
+				setTimeout("showAD()", 3000);
+			});
+		</script>
+	</head>
+	<body>
+		<img src="../img/1.jpg" id="img1" style="width: 400px; height: 200px; display: none;"/>
+	</body>
+</html>

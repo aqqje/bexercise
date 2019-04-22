@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>css引入方式</title>
+		<!--
+			外部样式：通过 link 引入一个 css 样式
+			内部样式：直接在 style 标签中写 css 样式
+			行内样式：直接在标签中添加 style 属性，编写 css 样式
+		-->
+		<link rel="stylesheet" href="styl1.css" />
+	</head>
+	<body>
+		<!-- 字体变蓝 -->
+		<div id="yjgm">id选择器</div>
+		<!-- 字体变红 -->
+		<div class="aqqje">class选择器</div>
+		
+		<style>
+			#sds{
+				color: pink;
+			}
+			.cccs{
+				color: aliceblue;
+			}
+		</style>
+			<!-- 字体变蓝 -->
+		<div id="sds">id选择器</div>
+		<!-- 字体变红 -->
+		<div class="cccs">class选择器</div>	<!-- 字体变蓝 -->
+		
+		
+		<div style="color: black;">id选择器</div>
+		<!-- 字体变红 -->
+		<div style="color: brown;">class选择器</div>
+	</body>
+</html>

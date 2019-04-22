@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>js入门</title>
+		<!--
+		js 结构:
+			ECMAScript: 核心部分:定义 js 语法标准
+			DOM: Document Object Model 文档对象模型: 用于管理页面
+			BOM: Browser Object Model 浏览器对象模型: 用于管理浏览器
+		
+		基本数据类型:
+			string
+			number
+			boolean
+			undefine
+			null
+		
+		引用类型
+			对象,内置对象
+		
+		类型转换
+			js内部自动转换
+		
+		运算符与语法
+			=== 类型与值相等
+			== 值相等
+			运行符与语法同java
+		
+		js 输出
+			alert()  直接弹框
+			document.write 向页面输出
+			console.log() 向控制台输出
+			innerHTML() 向页面输出
+		
+		获取页面元素
+			document.getElementById("id名称")
+		
+		声明变量
+			var 变量名 = 变量值
+		
+		声明函数
+			var 函数名 = function(){
+				
+			}
+			
+			function 函数名(){
+				
+			}
+		-->
+		<script>
+			function dianwo(){
+				alert("hahahaha");
+				var div1 = document.getElementById("div1");
+				div1.innerHTML = "<font style='color: red'>内容被替换掉了</font>";
+			}
+		</script>
+	</head>
+	<body>
+		<!-- <button onclick="dianwo()">点我</button> -->
+		
+		<button onclick="dianwo()">点我修改内容</button>
+		
+		<div id="div1">
+			这里的内容将被修改
+		</div>
+	</body>
+</html>

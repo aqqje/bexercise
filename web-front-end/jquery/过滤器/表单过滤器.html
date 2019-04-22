@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单过滤器</title>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(":button").css("background", "#98FB98");
+				
+				$("#btn").click(function(){
+					alert("ddd");
+					$("option:selected").css("background", "#98FB98");
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<input type="button" value="button"/>
+		<input type="text" />
+		<input type="radio" />
+		<input type="checkbox" />
+		<input type="submit" />
+		<input type="image" />
+		<input type="reset" />
+		<input type="button" value="button"/>
+		<input type="file" />
+		<input type="hidden" />
+		
+		<select multiple="multiple">
+			<option>1111</option>
+			<option>1111</option>
+			<option>1111</option>
+			<option>1111</option>
+			<option>1111</option>
+		</select>
+		
+		<input type="button" value="点我" id="btn" />
+	</body>
+</html>

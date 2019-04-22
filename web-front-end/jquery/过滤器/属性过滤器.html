@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>基本选择器</title>
+		<style>
+			#one, #two, #three{
+				width: 200px;
+				height: 200px;
+				border: 1px solid gray;
+				background-color: gray;
+				float: left;
+				margin-right: 20px;
+			}
+			.mini{
+				width: 45%;
+				height: 45%;
+				border: 1px solid palegreen;
+				background-color: palegreen;
+				float: left;
+				margin-left: 5px;
+				margin-top: 5px;
+			}
+		</style>
+		<script src="../js/jquery-1.11.0.js"></script>
+		<script>
+			$(function(){
+				$("#a1").click(function(){
+					$("a[href]").css("background-color","royalblue");
+				});
+// 				$("#a2").click(function(){
+// 					$("a[href][title]").css("background-color","red");
+// 				});
+				$("#a2").click(function(){
+					$("a[href][title='test']").css("background-color","red");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<a href="#" id="a1">hemin</a><br/>
+		<a href="#" title="test" id="a2">offset</a>
+	</body>
+</html>

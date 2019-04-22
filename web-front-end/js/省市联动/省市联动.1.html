@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>省市联动</title>
+		<script>
+			var provinceArr = ["湖南省","浙江省","广东省"]
+			var cityArr = [
+				["衡阳市", "湘潭市", "湘西市", "岳阳市"],
+				["杭州市", "宁波市", "嘉兴市", "义乌市"],
+				["广州市", "中山市", "佛山市", "潮阳市"]
+			]
+			
+			function changCity(){
+				// 获取当前省对象
+				var provinces = document.getElementById("provinces");
+				var selectCity = document.getElementById("citys");
+				// 根据省对象获取市对象
+				var citys = cityArr[provinces.value];
+				selectCity.options.length = 1;
+				for(var i=0; i<citys.length; i++){
+					// alert(citys[i]);
+					// 创建 option 标签
+					var option = document.createElement("option");
+					// 创建市文本信息对象
+					var textNode = document.createTextNode(citys[i]);
+					// 关联 option 与 textNode
+					option.appendChild(textNode);
+					// 关联 option 与 select
+					selectCity.appendChild(option);
+				}
+			}
+			function init(){
+				var selectProvince = document.getElementById("provinces");
+				provinces.options.length = 1;
+				for(var i=0; i<provinceArr.length; i++){
+					var option = document.createElement("option");
+					option.setAttribute("value", i);
+					var provinceInfo = document.createTextNode(provinceArr[i]);
+					option.appendChild(provinceInfo);
+					selectProvince.appendChild(option);
+				}
+			}
+		</script>
+	</head>
+	<body onload="init()">
+		<select id="provinces" onchange="changCity()">
+			<option value="-1">--请选择--</option>
+		</select>
+		<select id="citys">
+			<option>--请选择--</option>
+		</select>
+	</body>
+</html>
