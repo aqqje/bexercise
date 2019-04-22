@@ -1,0 +1,1 @@
+[mysql 连接url中useUnicode=true&characterEncoding=UTF-8 的作用](https://blog.csdn.net/afgasdg/article/details/6941712)

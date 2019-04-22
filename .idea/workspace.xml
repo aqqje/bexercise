@@ -1,140 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="web-fornt-end: add =&gt; all">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/bootstrap入门/bootstrap入门.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/css/laohuangli.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/big01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/middle01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/goods/small09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/index/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/index/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/index/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/index/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/index/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/index/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/index/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/index/title2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/reg3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/reg4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/img/register/regist_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/js/jquery-1.11.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/程序员老黄历/老黄历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/笔记/05-BootStrap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/网站首页/网站首页.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/bootstrap/表单校验/表单校验.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/css引入方式/css引入方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/css引入方式/styl1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/css浮动/css浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/big01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/middle01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/goods/small09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/index/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/index/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/index/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/index/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/index/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/index/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/index/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/index/title2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/img/register/regist_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/js入门/js入门.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/js检验/js检验.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/笔记/02-CSS&amp;JS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/网站注册/网站注册.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/网站首页/网站首页.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/选择器/id&amp;class选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/选择器/伪类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/选择器/元素选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/选择器/后代选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/选择器/属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/css&amp;js/选择器/选择器入门.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/big01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/middle01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/goods/small09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/index/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/index/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/index/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/index/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/index/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/index/title2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/img/register/regist_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/友情链接/友情链接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/后台管理/aaa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/后台管理/bbb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/后台管理/ccc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/后台管理/data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/后台管理/后台管理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/注册页面/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/注册页面/注册页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/笔记/html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/网站信息/网站信息页.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/网站首页/网站首页.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/网页图片/网页图片.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/表格标签/表格合并.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/html/表格标签/表格标签入门.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/jquery入门/jquery入门.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/js/jquery-1.11.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/js与jq对象互转/js与jq对象互转.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/动画效果/动画效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/基本选择器/基本选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/基本选择器/顶层选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/左右选择/商品左右选择.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/添加与遍历/添加与遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/添加与遍历/遍历原理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/省市联动/省市联动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/笔记/04-jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/表单校验/检验.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/表格隔行换色/表格隔行换色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/过滤器/基本过滤器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/过滤器/属性过滤器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/过滤器/表单过滤器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/jquery/页面广告弹出/页面广告弹出.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/DOM操作/DOM操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/js检验/检验.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/商品左右选择/商品左右选择.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/图片轮播/图片轮播.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/图片隐显/图片隐显.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/定时器/定时器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/广告显示与隐藏/广告显示与隐藏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/省市联动/省市联动.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/省市联动/省市联动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/笔记/03-javaScript.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/js/表格的隔行换色/表格隔行换色.html" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="javaWeb: add =&gt; all">
+      <change afterPath="$PROJECT_DIR$/javaweb/ajxs&amp;json/src/cn/aqqje/dome/web/FindOneUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/ajxs&amp;json/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/ajxs&amp;json/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/ajxs&amp;json/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/ajxs&amp;json/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/ajxs&amp;json/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/ajxs&amp;json/web/resource/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/domain/BeanPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/note/JQuery基础笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/note/JQuery高级笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/note/mysql中url设置字符集作用.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/test/UtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/util/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/filter/SensitiveWordsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/filter/loginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/AddUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/BeanPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/DeleteSelectedServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/DeleteUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/FindOneByIdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/UpdateUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/web/servlet/UserListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/src/敏感词汇.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/RESOURCES/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/RESOURCES/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/RESOURCES/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/updateUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/com&amp;case/web/user_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/cookie&amp;dome/src/cn/aqqje/servlet/CookieDome1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/cookie&amp;dome/src/cn/aqqje/servlet/CookieDome2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/cookie&amp;dome/src/cn/aqqje/servlet/CookieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/cookie&amp;dome/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/cookie&amp;dome/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/el&amp;jstl/src/cn/aqqje/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/el&amp;jstl/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/el&amp;jstl/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/el&amp;jstl/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/el&amp;jstl/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/src/ContextServletListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/src/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/src/cn/aqqje/dome/test/Lenove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/src/cn/aqqje/dome/test/PoxryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/src/cn/aqqje/dome/test/SaleComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/src/cn/aqqje/dome/web/filter/FilterDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/src/cn/aqqje/dome/web/servlet/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/src/cn/aqqje/note/Filter笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/filter&amp;dome/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/dao/ProvinceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/dao/daoImpl/ProvinceDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/domain/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/note/redis笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/service/serviceImpl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/utils/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/utils/JedisPoolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/cn/aqqje/web/servlet/FindAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/src/jedis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/redis&amp;dome/web/resources/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/src/cn/aqqje/cn/aqqje/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/src/cn/aqqje/cn/aqqje/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/src/cn/aqqje/cn/aqqje/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/src/cn/aqqje/cn/aqqje/servlet/loginError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/src/cn/aqqje/cn/aqqje/servlet/loginSuccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/src/cn/aqqje/cn/aqqje/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/src/cn/aqqje/cn/aqqje/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/request&amp;dome/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/note/HTTP-Request笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/note/HTTP-Response笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/note/Servet笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/web/RequestDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/web/RequestDome1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/web/RequestDome2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/web/RequestDome3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/web/RequestDome4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/src/cn/aqqje/web/RequestDome5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/servlet&amp;http/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/src/cn/aqqje/note/EL&amp;JSTL笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/src/cn/aqqje/note/cookie&amp;session.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/src/cn/aqqje/note/jsp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/src/cn/aqqje/note/mvc笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/src/cn/aqqje/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/src/cn/aqqje/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/session&amp;dome/web/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/tomcat&amp;servlet/src/cn/aqqje/ServletDome1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/tomcat&amp;servlet/src/cn/note/Tomcat笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/tomcat&amp;servlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/tomcat&amp;servlet/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/version&amp;dome/src/domeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/version&amp;dome/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/version&amp;dome/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/libs/JsoupXpath-0.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/libs/jsoup-1.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/css/a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/dtd/student.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/dtd/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/jsoup/JsopFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/jsoup/JsopStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/jsoup/JsopUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/jsoup/JsoupAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/jsoup/JsoupSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/jsoup/JsoupXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/note/xml笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/xml/helloworld.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/xsd/application_mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/xsd/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/cn/xsd/student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/src/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb/xml/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,7 +195,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -171,10 +205,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaweb/response&amp;dome/web/file/1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="欧明.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaweb/response&amp;dome/web/file/欧明.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaweb/response&amp;dome/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/javaweb/response&amp;dome/web/index.jsp" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -194,10 +263,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="37" />
-    <option name="width" value="1346" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1000" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -210,6 +279,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,11 +287,52 @@
               <item name="bexercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="bexercise" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="javaweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="javaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="response&amp;dome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="javaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="response&amp;dome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="javaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="response&amp;dome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="javaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="response&amp;dome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="aqqje" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="javaweb" type="462c0819:PsiDirectoryNode" />
+              <item name="response&amp;dome" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,6 +419,10 @@
       <updated>1555916402665</updated>
       <workItem from="1555916405408" duration="251000" />
       <workItem from="1555919033762" duration="2989000" />
+      <workItem from="1555925250929" duration="596000" />
+      <workItem from="1555926145685" duration="315000" />
+      <workItem from="1555926687034" duration="607000" />
+      <workItem from="1555935178011" duration="233000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -320,14 +435,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3240000" />
+    <option name="totallyTimeSpent" value="5052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="37" width="1346" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="753" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3291367" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.11433172" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -339,9 +454,8 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.253882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20166163" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -353,6 +467,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,9 +479,86 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="web-fornt-end: add =&gt; all" />
-    <option name="LAST_COMMIT_MESSAGE" value="web-fornt-end: add =&gt; all" />
+    <MESSAGE value="javaWeb: add =&gt; all" />
+    <option name="LAST_COMMIT_MESSAGE" value="javaWeb: add =&gt; all" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-front-end/js/笔记/03-javaScript.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-front-end/js/笔记/03-javaScript.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-front-end/js/笔记/03-javaScript.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-front-end/js/笔记/03-javaScript.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -386,6 +578,26 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaweb/response&amp;dome/web/file/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaweb/response&amp;dome/web/file/欧明.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaweb/response&amp;dome/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaweb/com&amp;case/src/cn/aqqje/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
