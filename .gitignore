@@ -1,0 +1,7 @@
+.idea
+*.iml
+out
+gen
+target
+.gitignore
+web-front-end/jquery/css/
