@@ -6,7 +6,7 @@
 
 <!--    <servlet>
         <servlet-name>dome1</servlet-name>
-        <servlet-class>cn.aqqje.ServletDome1</servlet-class>
+        <servlet-class>dao.aqqje.ServletDome1</servlet-class>
         <load-on-startup>5</load-on-startup>
     </servlet>
 
