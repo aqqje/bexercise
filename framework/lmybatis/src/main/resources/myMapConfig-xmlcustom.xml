@@ -19,6 +19,6 @@
     </environments>
 
     <mappers>
-        <mapper resource="cn/xmlcustom/dao/IUserDao.xml" />
+        <mapper class="cn.xmlcustom.dao.IUserDao" />
     </mappers>
 </configuration>

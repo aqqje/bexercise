@@ -1,5 +1,6 @@
 package cn.xmlcustom.mybaties.utils;
 
+import cn.xmlcustom.mybaties.annotation.Select;
 import cn.xmlcustom.mybaties.cfg.Configuration;
 import cn.xmlcustom.mybaties.cfg.Mapper;
 import cn.xmlcustom.mybaties.io.Resources;
@@ -88,14 +89,14 @@ public class XMLConfigBuilder {
                     //给configuration中的mappers赋值
                     cfg.setMappers(mappers);
                 }else{
-                   /* System.out.println("使用的是注解");
+                    System.out.println("使用的是注解");
                     //表示没有resource属性，用的是注解
                     //获取class属性的值
                     String daoClassPath = mapperElement.attributeValue("class");
                     //根据daoClassPath获取封装的必要信息
                     Map<String,Mapper> mappers = loadMapperAnnotation(daoClassPath);
                     //给configuration中的mappers赋值
-                    cfg.setMappers(mappers);*/
+                    cfg.setMappers(mappers);
                 }
             }
             //返回Configuration
@@ -165,7 +166,7 @@ public class XMLConfigBuilder {
      * @param daoClassPath
      * @return
      */
-    /*private static Map<String,Mapper> loadMapperAnnotation(String daoClassPath)throws Exception{
+    private static Map<String,Mapper> loadMapperAnnotation(String daoClassPath)throws Exception{
         //定义返回值对象
         Map<String,Mapper> mappers = new HashMap<String, Mapper>();
 
@@ -209,7 +210,7 @@ public class XMLConfigBuilder {
             }
         }
         return mappers;
-    }*/
+    }
 
 
 
