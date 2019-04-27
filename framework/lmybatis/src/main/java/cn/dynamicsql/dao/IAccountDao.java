@@ -12,4 +12,6 @@ public interface IAccountDao {
      */
     List<Account> findAll();
 
+    List<Account> findByUid(Integer uid);
+
 }
