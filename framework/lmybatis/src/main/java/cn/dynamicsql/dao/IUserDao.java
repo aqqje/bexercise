@@ -12,4 +12,11 @@ public interface IUserDao {
     User findById(Integer id);
 
     List<User> findBylis(int[] lis);
+
+    /**
+     * 查询所有用户包含名下的所有帐号
+     * @return
+     */
+    List<User> findAllwithAccount();
+
 }

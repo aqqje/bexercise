@@ -1,6 +1,7 @@
 package cn.dynamicsql.domain;
 
 import java.util.Date;
+import java.util.List;
 
 public class User {
     private Integer id;
@@ -8,6 +9,16 @@ public class User {
     private Date birthday;
     private String sex;
     private String address;
+
+    public List<Account> getAccountList() {
+        return accountList;
+    }
+
+    public void setAccountList(List<Account> accountList) {
+        this.accountList = accountList;
+    }
+
+    private List<Account> accountList;
 
     public Integer getId() {
         return id;
@@ -57,6 +68,7 @@ public class User {
                 ", birthday=" + birthday +
                 ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
+                ", accountList=" + accountList +
                 '}';
     }
 }

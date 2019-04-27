@@ -1,8 +1,8 @@
 package dynamicsql;
 
 
-import cn.dynamicsql.dao.IUserDao;
-import cn.dynamicsql.domain.User;
+import cn.dynamicsql.dao.IAccountDao;
+import cn.dynamicsql.domain.Account;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -13,45 +13,19 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.List;
 
-public class UserDaoTest {
+public class AccountDaoTest {
     private InputStream in;
     private SqlSession sqlSession;
-    private IUserDao userDao;
+    private IAccountDao accountDao;
 
     @Test
-    public void testFindAllwithAccount(){
-        List<User> userList = userDao.findAllwithAccount();
-        for (User user:userList) {
-            System.out.println(user);
+    public void testFindAll(){
+        List<Account> list = accountDao.findAll();
+        for (Account item:list) {
+            System.out.println(item);
         }
-    }
-
-
-    @Test
-    public void testFindById(){
-        User user = userDao.findById(1);
-        System.out.println(user);
-    }
-
-    @Test
-    public void testFindByCondition(){
-        User user = new User();
-        user.setAddress("中国");
-        user.setSex("男");
-        user.setId(1);
-        User condition = userDao.findByCondition(user);
-        System.out.println(condition);
-    }
-
-    @Test
-    public void testFindBylis(){
-        List<Integer> lis = new ArrayList();
-
-        List<User> condition = userDao.findBylis(new int[]{1,2});
-        System.out.println(condition);
     }
 
     /**
@@ -63,7 +37,7 @@ public class UserDaoTest {
         InputStream in = Resources.getResourceAsStream("myMapConfig-dynamicsql.xml");
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
         SqlSession sqlSession = factory.openSession();
-        userDao = sqlSession.getMapper(IUserDao.class);
+        accountDao = sqlSession.getMapper(IAccountDao.class);
     }
 
     /**

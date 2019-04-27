@@ -19,6 +19,6 @@
     </environments>
 
     <mappers>
-        <mapper class="cn.dynamicsql.dao.IUserDao" />
+        <package name="cn.dynamicsql.dao"/>
     </mappers>
 </configuration>

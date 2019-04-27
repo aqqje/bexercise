@@ -3,7 +3,18 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.dynamicsql.dao.IUserDao">
-
+    <resultMap id="userWithAccountMap" type="cn.dynamicsql.domain.User">
+        <result property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="birthday" column="birthday"/>
+        <result property="sex" column="sex"/>
+        <result property="address" column="address"/>
+        <collection property="accountList" ofType="cn.dynamicsql.domain.Account">
+            <result property="id" column="id"/>
+            <result property="uid" column="uid"/>
+            <result property="money" column="money"/>
+        </collection>
+    </resultMap>
 
 
     <sql id="defaultselect">
@@ -49,6 +60,12 @@
                 </foreach>
             </if>
         </where>
+    </select>
+
+    <select id="findAllwithAccount" resultMap="userWithAccountMap">
+        select u.username, u.address, a.*
+        from account a  LEFT JOIN user u on
+         a.uid = u.id
     </select>
 
 </mapper>
