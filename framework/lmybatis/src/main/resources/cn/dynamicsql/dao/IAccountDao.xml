@@ -3,6 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.dynamicsql.dao.IAccountDao">
+    <!--开启二级缓存支持-->
+    <cache></cache>
     <resultMap id="defMap" type="cn.dynamicsql.domain.Account">
     <result property="id" column="id"/>
     <result property="uid" column="uid"/>
@@ -28,7 +30,8 @@
         <association property="users" javaType="cn.dynamicsql.domain.User" select="cn.dynamicsql.dao.IUserDao.findById" column="uid"/>
     </resultMap>
 
-    <select id="findByUid" resultMap="defMap">
+    <!--userCache: true 开启二级缓存-->
+    <select id="findByUid" resultMap="defMap" useCache="true">
         select * from account where uid = #{uid}
     </select>
 
