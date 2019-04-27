@@ -16,7 +16,7 @@ public class UserDaoTest {
     private IUserDao userDao;
 
     public static void main(String[] args) throws IOException {
-        Reader reader = Resources.getResourceAsReader("myMapConfig.xml");
+        Reader reader = Resources.getResourceAsReader("myMapConfig-introduction.xml");
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         SqlSessionFactory sessionFactory = builder.build(reader);
         SqlSession sqlSession = sessionFactory.openSession();

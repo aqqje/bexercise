@@ -19,6 +19,6 @@
     </environments>
 
     <mappers>
-        <package name="cn.introduction.dao"/>
+        <mapper class="cn.introduction.dao.IUserDao"/>
     </mappers>
 </configuration>

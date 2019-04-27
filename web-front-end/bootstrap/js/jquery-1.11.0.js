@@ -1771,7 +1771,7 @@ Expr = Sizzle.selectors = {
 		"PSEUDO": function( pseudo, argument ) {
 			// pseudo-class names are case-insensitive
 			// http://www.w3.org/TR/selectors/#pseudo-classes
-			// Prioritize by case sensitivity in case custom pseudos are added with uppercase letters
+			// Prioritize by case sensitivity in case xmlcustom pseudos are added with uppercase letters
 			// Remember that setFilters inherits from pseudos
 			var args,
 				fn = Expr.pseudos[ pseudo ] || Expr.setFilters[ pseudo.toLowerCase() ] ||
@@ -4268,7 +4268,7 @@ jQuery.event = {
 			return;
 		}
 
-		// Caller can pass in an object of custom data in lieu of the handler
+		// Caller can pass in an object of xmlcustom data in lieu of the handler
 		if ( handler.handler ) {
 			handleObjIn = handler;
 			handler = handleObjIn.handler;
@@ -4877,7 +4877,7 @@ jQuery.removeEvent = document.removeEventListener ?
 
 		if ( elem.detachEvent ) {
 
-			// #8545, #7054, preventing memory leaks for custom events in IE6-8
+			// #8545, #7054, preventing memory leaks for xmlcustom events in IE6-8
 			// detachEvent needed property on element, by name of that event, to properly expose it to GC
 			if ( typeof elem[ name ] === strundefined ) {
 				elem[ name ] = null;
@@ -7608,7 +7608,7 @@ jQuery.each([ "toggle", "show", "hide" ], function( i, name ) {
 	};
 });
 
-// Generate shortcuts for custom animations
+// Generate shortcuts for xmlcustom animations
 jQuery.each({
 	slideDown: genFx("show"),
 	slideUp: genFx("hide"),
@@ -8592,7 +8592,7 @@ var
 	rurl = /^([\w.+-]+:)(?:\/\/(?:[^\/?#]*@|)([^\/?#:]*)(?::(\d+)|)|)/,
 
 	/* Prefilters
-	 * 1) They are useful to introduce custom dataTypes (see ajax/jsonp.js for an example)
+	 * 1) They are useful to introduce xmlcustom dataTypes (see ajax/jsonp.js for an example)
 	 * 2) These are called:
 	 *    - BEFORE asking for a transport
 	 *    - AFTER param serialization (s.data is a string if s.processData is true)
@@ -8920,7 +8920,7 @@ jQuery.extend({
 		},
 
 		// For options that shouldn't be deep extended:
-		// you can add your own custom options here if
+		// you can add your own xmlcustom options here if
 		// and when you create one that shouldn't be
 		// deep extended (see ajaxExtend)
 		flatOptions: {
@@ -9172,7 +9172,7 @@ jQuery.extend({
 			jqXHR.setRequestHeader( i, s.headers[ i ] );
 		}
 
-		// Allow custom headers/mimetypes and early abort
+		// Allow xmlcustom headers/mimetypes and early abort
 		if ( s.beforeSend && ( s.beforeSend.call( callbackContext, jqXHR, s ) === false || state === 2 ) ) {
 			// Abort if not done already and return
 			return jqXHR.abort();
@@ -9626,7 +9626,7 @@ if ( xhrSupported ) {
 					// Open the socket
 					xhr.open( options.type, options.url, options.async, options.username, options.password );
 
-					// Apply custom fields if provided
+					// Apply xmlcustom fields if provided
 					if ( options.xhrFields ) {
 						for ( i in options.xhrFields ) {
 							xhr[ i ] = options.xhrFields[ i ];
