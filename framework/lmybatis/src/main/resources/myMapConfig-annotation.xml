@@ -3,16 +3,6 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <settings>
-
-        <!--开启懒加载-->
-        <setting name="lazyLoadingEnabled" value="true"/>
-        <setting name="aggressiveLazyLoading" value="false"/>
-
-        <!--开启两级缓存-->
-        <setting name="cacheEnabled" value="true"/>
-
-    </settings>
     <environments default="mysql">
         <!--配置环境-->
         <environment id="mysql">
@@ -21,7 +11,7 @@
             <!--以池数据源-->
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"></property>
-                <property name="url" value="jdbc:mysql:///mybaties?useUnicode=true&amp;charaterEncoding=utf-8"></property>
+                <property name="url" value="jdbc:mysql:///mybaties?useUnicode=true&amp;characterEncoding=utf-8"></property>
                 <property name="username" value="root"></property>
                 <property name="password" value="root"></property>
             </dataSource>
@@ -29,6 +19,6 @@
     </environments>
 
     <mappers>
-        <package name="cn.dynamicsql.dao"/>
+        <mapper class= "cn.annotaion.dao.IUserDao"/>
     </mappers>
 </configuration>

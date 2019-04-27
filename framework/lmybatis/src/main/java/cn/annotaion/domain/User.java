@@ -1,8 +1,7 @@
-package cn.dynamicsql.domain;
+package cn.annotaion.domain;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 public class User implements Serializable {
     private Integer id;
@@ -10,16 +9,6 @@ public class User implements Serializable {
     private Date birthday;
     private String sex;
     private String address;
-
-    public List<Account> getAccountList() {
-        return accountList;
-    }
-
-    public void setAccountList(List<Account> accountList) {
-        this.accountList = accountList;
-    }
-
-    private List<Account> accountList;
 
     public Integer getId() {
         return id;
@@ -69,7 +58,6 @@ public class User implements Serializable {
                 ", birthday=" + birthday +
                 ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
-                ", accountList=" + accountList +
                 '}';
     }
 }
