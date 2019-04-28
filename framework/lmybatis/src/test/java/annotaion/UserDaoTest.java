@@ -20,7 +20,10 @@ public class UserDaoTest {
     private InputStream in;
     private SqlSession sqlSession;
     private IUserDao userDao;
-
+    /**
+     * 测试前的初始化
+     * @throws IOException
+     */
     @Before
     public void init() throws IOException {
         InputStream in = Resources.getResourceAsStream("myMapConfig-annotation.xml");
@@ -58,7 +61,7 @@ public class UserDaoTest {
 
     @Test
     public void findByIdTest(){
-        User user = userDao.findById(1);
+        User user = userDao.findById(2);
         System.out.println(user);
     }
 
@@ -95,9 +98,14 @@ public class UserDaoTest {
     public void findByUsernameTest(){
         System.out.println(userDao.findByUsername("%李%"));
     }
-    /**
-     * 测试前的初始化
-     * @throws IOException
-     */
+
+
+    @Test
+    public void findAllAndWithAccount(){
+        List<User> list = userDao.findAllAndWithAccount();
+        for (User user: list) {
+            System.out.println(user);
+        }
+    }
 
 }

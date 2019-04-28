@@ -38,4 +38,15 @@ public interface IUserDao {
 
     @Select("select * from user where username like #{username}")
     List<User> findByUsername(String username);
+
+    @Select("select * from user")
+    @Results(id = "baseAndWithAccountMap", value = {
+            @Result(id = true, column = "id", property = "id"),
+            @Result(column = "username", property = "username"),
+            @Result(column = "birthday", property = "birthday"),
+            @Result(column = "sex", property = "sex"),
+            @Result(column = "address", property = "address"),
+            @Result(column = "id", property = "accountList", javaType = List.class, many = @Many(select = "cn.annotaion.dao.IAccountDao.findByUid")),
+    })
+    List<User> findAllAndWithAccount();
 }

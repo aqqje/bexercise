@@ -1,7 +1,5 @@
 package cn.annotaion.domain;
 
-import cn.dynamicsql.domain.User;
-
 import java.io.Serializable;
 
 public class Account implements Serializable {

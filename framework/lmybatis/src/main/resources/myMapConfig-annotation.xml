@@ -19,6 +19,6 @@
     </environments>
 
     <mappers>
-        <mapper class= "cn.annotaion.dao.IUserDao"/>
+        <package name="cn.annotaion.dao"/>
     </mappers>
 </configuration>
