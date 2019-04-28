@@ -49,4 +49,16 @@ public interface IUserDao {
             @Result(column = "id", property = "accountList", javaType = List.class, many = @Many(select = "cn.annotaion.dao.IAccountDao.findByUid")),
     })
     List<User> findAllAndWithAccount();
+
+    @SelectProvider(type = cn.annotaion.provider.UserProvider.class, method = "proFindByCondition")
+    @ResultMap("baseMap")
+    User proFindByCondition(User user);
+
+    @SelectProvider(type = cn.annotaion.provider.UserProvider.class, method = "proFindByUid")
+    @ResultMap("baseMap")
+    User proFindByUid(@Param("id") int id);
+
+    @SelectProvider(type = cn.annotaion.provider.UserProvider.class, method = "proFindAll")
+    @ResultMap("baseMap")
+    List<User> proFindAll();
 }

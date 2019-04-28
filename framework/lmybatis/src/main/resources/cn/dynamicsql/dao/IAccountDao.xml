@@ -40,4 +40,5 @@
         from account a, user u
         where a.uid = u.id
     </select>
+
 </mapper>

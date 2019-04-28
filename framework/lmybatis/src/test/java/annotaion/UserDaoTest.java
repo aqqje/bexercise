@@ -4,6 +4,8 @@ package annotaion;
 import cn.annotaion.dao.IUserDao;
 import cn.annotaion.domain.User;
 import cn.xmlcustom.mybaties.io.Resources;
+import org.apache.ibatis.annotations.ResultMap;
+import org.apache.ibatis.annotations.SelectProvider;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
@@ -108,4 +110,25 @@ public class UserDaoTest {
         }
     }
 
+    @Test
+    public void proFindByCondition(){
+        User u = new User();
+        u.setSex("女");
+        u.setId(2);
+        User user = userDao.proFindByCondition(u);
+        System.out.println(user);
+    }
+
+    @Test
+    public void proFindByUid(){
+        User user = userDao.proFindByUid(2);
+        System.out.println(user);
+    }
+
+    @Test
+    public void proFindAll(){
+        for (User u:userDao.proFindAll()) {
+            System.out.println(u);
+        }
+    }
 }

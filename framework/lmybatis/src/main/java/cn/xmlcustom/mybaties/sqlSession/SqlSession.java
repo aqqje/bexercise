@@ -1,7 +1,5 @@
 package cn.xmlcustom.mybaties.sqlSession;
 
-import cn.xmlcustom.dao.IUserDao;
-
 public interface SqlSession {
 
     /**
