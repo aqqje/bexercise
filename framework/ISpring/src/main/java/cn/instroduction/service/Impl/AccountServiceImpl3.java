@@ -1,17 +1,19 @@
 package cn.instroduction.service.Impl;
 
-import cn.instroduction.dao.IAccountDao;
 import cn.instroduction.service.IAccountService;
 
 import java.util.Date;
 
-public class AccountServiceImpl1 implements IAccountService {
+public class AccountServiceImpl3 implements IAccountService {
 
     private String username;
     private int age;
     private Date birthday;
 
-    public AccountServiceImpl1(String username, int age, Date birthday) {
+    public AccountServiceImpl3() {
+    }
+
+    public AccountServiceImpl3(String username, int age, Date birthday) {
         this.username = username;
         this.age = age;
         this.birthday = birthday;

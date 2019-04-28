@@ -10,9 +10,11 @@ public class ClientTest {
         /*创建 spring 容器对象*/
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
         /*使用 getBean 方法获取具体实体*/
-        IAccountDao accountDao = (IAccountDao)context.getBean("accountDao");
-        IAccountService accountService = (IAccountService)context.getBean("accountService");
-        System.out.println(accountDao);
-        System.out.println(accountService);
+        //IAccountDao accountDao = (IAccountDao)context.getBean("accountDao");
+        //System.out.println(accountDao);
+        //IAccountService accountService = (IAccountService)context.getBean("accountService1");
+        //System.out.println(accountService);
+        IAccountService accountService = (IAccountService)context.getBean("accountService4");
+        accountService.save();
     }
 }
