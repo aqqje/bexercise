@@ -15,7 +15,7 @@ import java.util.List;
 public class AccountDaoImpl implements IAccountDao {
 
     @Autowired
-    @Qualifier("runner")
+    @Qualifier("qr")
     private QueryRunner qr;
 
     @Override

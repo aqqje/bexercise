@@ -1,27 +1,41 @@
 package accountcrud;
 
 import cn.accountcrud.configuration.SpringConfiguration;
+import cn.accountcrud.dao.IAccountDao;
 import cn.accountcrud.domain.Account;
 import cn.accountcrud.serivce.IAccountService;
 import org.apache.commons.dbutils.QueryRunner;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.List;
 
+@RunWith(SpringJUnit4ClassRunner.class)
+//@ContextConfiguration(locations = {"classpath:spring-accountcrud.xml"})
+@ContextConfiguration(classes = {SpringConfiguration.class})
 public class Client {
-    private ApplicationContext context;
+    /*private ApplicationContext context;
+    private IAccountService accountService;*/
+    @Autowired
+    @Qualifier("accountService")
     private IAccountService accountService;
+
+    @Autowired
+    @Qualifier("accountDao")
+    private IAccountDao accountDao;
 
     @Test
     public void isSingletonTest(){
-        QueryRunner runner1 = (QueryRunner) context.getBean("runner");
+        /*QueryRunner runner1 = (QueryRunner) context.getBean("runner");
         QueryRunner runner2 = (QueryRunner) context.getBean("runner");
-        System.out.println(runner1 == runner2);
+        System.out.println(runner1 == runner2);*/
     }
 
     @Test
@@ -53,10 +67,10 @@ public class Client {
         accountService.update(account);
     }
 
-    @Before
+  /*  @Before
     public void init(){
         context = new AnnotationConfigApplicationContext(SpringConfiguration.class);
         accountService = (IAccountService)context.getBean("accountService");
-    }
+    }*/
 
 }

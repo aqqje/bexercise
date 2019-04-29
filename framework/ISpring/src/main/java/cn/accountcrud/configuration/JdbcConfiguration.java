@@ -25,7 +25,7 @@ public class JdbcConfiguration {
     @Value("${jdbc.password}")
     private String password;
 
-    @Bean(name = "runner")
+    @Bean(name = "qr")
     @Scope("prototype")
     public QueryRunner getRunner(@Qualifier("dataSource") DataSource dataSource){
         return new QueryRunner(dataSource);
