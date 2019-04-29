@@ -1,11 +1,14 @@
 package accountcrud;
 
+import cn.accountcrud.configuration.SpringConfiguration;
 import cn.accountcrud.domain.Account;
 import cn.accountcrud.serivce.IAccountService;
+import org.apache.commons.dbutils.QueryRunner;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
@@ -13,6 +16,13 @@ import java.util.List;
 public class Client {
     private ApplicationContext context;
     private IAccountService accountService;
+
+    @Test
+    public void isSingletonTest(){
+        QueryRunner runner1 = (QueryRunner) context.getBean("runner");
+        QueryRunner runner2 = (QueryRunner) context.getBean("runner");
+        System.out.println(runner1 == runner2);
+    }
 
     @Test
     public void findAllTest(){
@@ -45,7 +55,7 @@ public class Client {
 
     @Before
     public void init(){
-        context = new ClassPathXmlApplicationContext("spring-accountcrud.xml");
+        context = new AnnotationConfigApplicationContext(SpringConfiguration.class);
         accountService = (IAccountService)context.getBean("accountService");
     }
 
