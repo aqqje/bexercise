@@ -1,8 +1,10 @@
 package instroduction;
 
 import cn.instroduction.dao.IAccountDao;
-import cn.instroduction.factory.BeanFactory;
+//import cn.instroduction.factory.BeanFactory;
 import cn.instroduction.service.IAccountService;
+import cn.instroduction.service.Impl.AccountServiceImpl;
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -22,12 +24,19 @@ public class ClientTest {
         /*BeanFactory factory = new BeanFactory("bean.properties");
         IAccountService accountService = (IAccountService)factory.getBean("accountService");
         accountService.save();*/
-        BeanFactory factory = new BeanFactory("bean.properties");
+        //BeanFactory factory = new BeanFactory("bean.properties");
 //        IAccountDao accountDao = (IAccountDao)factory.getBean("accountDao");
-        for(int i = 0; i < 8; i++){
+        /*for(int i = 0; i < 8; i++){
             IAccountDao accountDao = (IAccountDao)factory.getBean("accountDao");
             System.out.println(accountDao);
             accountDao.save();
+        }*/
+        BeanFactory factory = new ClassPathXmlApplicationContext("spring-config.xml");
+        for (int i = 0; i <5 ; i++) {
+            AccountServiceImpl accountService = (AccountServiceImpl) factory.getBean("accountService");
+            System.out.println(accountService);
+//            accountService.save();
         }
+
     }
 }

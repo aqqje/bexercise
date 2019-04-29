@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xmlns:p="http://www.springframework.org/schema/p"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--组件扫描-->
+    <context:component-scan base-package="cn.instroduction.service" />
+    <context:component-scan base-package="cn.instroduction.dao" />
 
     <!--将 dao,service 的管理权交给 spring 容器-->
-    <bean id="accountDao" class="cn.instroduction.dao.Impl.AccountDaoImpl"/>
+    <!--<bean id="accountDao" class="cn.instroduction.dao.Impl.AccountDaoImpl"/>-->
     <!--<bean id="accountService" class="cn.instroduction.service.Impl.AccountServiceImpl"/>-->
    <!-- <bean id="accountService1" class="cn.instroduction.service.Impl.AccountServiceImpl1">
         <constructor-arg name="username" value="张三"/>
@@ -28,9 +34,9 @@
         Map 结构的
             map,entry,props,prop
     -->
-    <bean id="accountService4" class="cn.instroduction.service.Impl.AccountServiceImpl4">
-        <!-- 在注入集合数据时，只要结构相同，标签可以互换 -->
-        <!-- 给数组注入数据 -->
+<!--    <bean id="accountService4" class="cn.instroduction.service.Impl.AccountServiceImpl4">
+        &lt;!&ndash; 在注入集合数据时，只要结构相同，标签可以互换 &ndash;&gt;
+        &lt;!&ndash; 给数组注入数据 &ndash;&gt;
         <property name="arryStr">
             <array>
                 <value>aaa1</value>
@@ -66,7 +72,8 @@
                 <prop key="yjgm1">250</prop>
             </props>
         </property>
-    </bean>
+    </bean>-->
+
 
     <!--注入 时间-->
     <bean id="now" class="java.util.Date"/>
