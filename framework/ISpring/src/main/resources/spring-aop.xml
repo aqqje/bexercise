@@ -10,11 +10,11 @@
     <!--注入组件-->
     <context:component-scan base-package="cn.springaop"/>
 
-    <!--aop-->
+  <!--  &lt;!&ndash;aop&ndash;&gt;
     <aop:config>
-        <!--配置切面-->
+        &lt;!&ndash;配置切面&ndash;&gt;
         <aop:aspect id="logAdvice" ref="logger">
-            <!--配置通知类型
+            &lt;!&ndash;配置通知类型
             修饰符可以省略,
             返回值使用 * :可以返回任何类型
             包名使用 * : 有几级就写几个 *. 或者 .. 表当前包和其子包
@@ -24,13 +24,16 @@
                 引用数据类型:  java.lang.String * *..*.*(int)
                 使用 * 表示匹配一个有参的方法,无参则不能匹配
                 使用 .. 匹配所有方法的参数,无参也能匹配
-            全通配: * *..*.*(..)-->
-            <!--<aop:before method="before" pointcut-ref="daoPointcut"/>
+            全通配: * *..*.*(..)&ndash;&gt;
+            &lt;!&ndash;<aop:before method="before" pointcut-ref="daoPointcut"/>
             <aop:after-returning method="afterReturning" pointcut-ref="daoPointcut"/>
             <aop:after-throwing method="afterThrowing" pointcut-ref="daoPointcut"/>
-            <aop:after method="after" pointcut-ref="daoPointcut"/>-->
+            <aop:after method="after" pointcut-ref="daoPointcut"/>&ndash;&gt;
             <aop:around method="around" pointcut-ref="daoPointcut"/>
             <aop:pointcut id="daoPointcut" expression="execution( * cn.springaop.dao.Impl.*.*(..) )"/>
         </aop:aspect>
-    </aop:config>
+    </aop:config>-->
+
+    <!--开启基于注解的aop-->
+    <aop:aspectj-autoproxy/>
 </beans>

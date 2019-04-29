@@ -1,23 +1,32 @@
 package cn.springaop.log;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("logger")
+@Aspect // 表示这一个切面
 public class Logger {
 
+    @Pointcut("execution( * cn.springaop.dao.Impl.*.*(..) )") // 表示一个切点
+    public void pt1(){}
+
     /*前置通知*/
+    @Before("pt1()")
     public void before(){
         System.out.println("prelogger.........");
     }
     /*后置通知*/
+    @AfterReturning("pt1()")
     public void afterReturning(){
         System.out.println("afterReturning.........");
     }
+    @AfterThrowing("pt1()")
     /*异常通知*/
     public void afterThrowing(){
         System.out.println("afterThrowing.........");
     }
+    @After("pt1()")
     /*最终通知*/
     public void after(){
         System.out.println("after.........");
@@ -36,6 +45,8 @@ public class Logger {
      * spring中的环绕通知：
      *      它是spring框架为我们提供的一种可以在代码中手动控制增强方法何时执行的方式。
      */
+
+//    @Around("pt1()")
     public Object around(ProceedingJoinPoint pjp){
         Object obj = null;
         try {
