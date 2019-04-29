@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--扫描组件-->
+    <context:component-scan base-package="cn.transaction.dao"/>
+    <context:component-scan base-package="cn.transaction.serivce"/>
+
+    <!--数据操作对象-->
+    <bean id="qr" class="org.apache.commons.dbutils.QueryRunner">
+    </bean>
+    <!--数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql:///mybaties?useUnicode=true&amp;charaterEncoding=utf-8"/>
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+
+    <!--连接工具类-->
+    <bean id="connUtil" class="cn.transaction.utils.ConnectionUtil">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="tx" class="cn.transaction.transaction.TransationManager">
+        <property name="conn" ref="connUtil"/>
+    </bean>
+
+    <bean id="beanFactory" class="cn.transaction.proxy.BeanFactory">
+        <property name="accountService" ref="accountService"/>
+        <property name="tx" ref="tx"/>
+    </bean>
+
+    <bean id="accountServiceProxy" factory-bean="beanFactory" factory-method="getAccountService"/>
+</beans>
