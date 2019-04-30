@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class AccountServiceImpl implements IAccountService {
 
     @Autowired
-    @Qualifier("accountDao1")
+    @Qualifier("accountDao")
     private IAccountDao accountDao;
 
     /**
