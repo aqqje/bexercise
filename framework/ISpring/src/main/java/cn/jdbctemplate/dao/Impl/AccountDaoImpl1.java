@@ -8,47 +8,44 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
+import javax.sql.DataSource;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-@Repository("accountDao")
-public class AccountDaoImpl implements IAccountDao {
 
-    @Autowired
-    private JdbcTemplate jt;
-
+public class AccountDaoImpl1 extends JdbcDaoSupport implements IAccountDao {
 
     @Override
     public List<Account> findAll() {
-        return jt.query("select * from account", new BeanPropertyRowMapper<Account>(Account.class));
+        return super.getJdbcTemplate().query("select * from account", new BeanPropertyRowMapper<Account>(Account.class));
     }
 
     @Override
     public Account findById(int id) {
         String sql = "select * from account where id = ?";
-        return jt.queryForObject(sql, new BeanPropertyRowMapper<Account>(Account.class), id);
+        return super.getJdbcTemplate().queryForObject(sql, new BeanPropertyRowMapper<Account>(Account.class), id);
 //        return jt.query(sql,new AccountMapper(), id).get(0);
     }
 
     @Override
     public void delete(int id) {
-        jt.update("delete from account where id = ?", id);
+        super.getJdbcTemplate().update("delete from account where id = ?", id);
     }
 
     @Override
     public void save(Account account) {
-        jt.update("insert into account (uid, money) values (?,?)", account.getUid(), account.getMoney());
+        super.getJdbcTemplate().update("insert into account (uid, money) values (?,?)", account.getUid(), account.getMoney());
     }
 
     @Override
     public void update(Account account) {
-        jt.update("update account set money = ? where id = ?", account.getMoney(), account.getId());
+        super.getJdbcTemplate().update("update account set money = ? where id = ?", account.getMoney(), account.getId());
     }
 
     @Override
     public int findAlldis() {
-        return jt.queryForObject("select count(*) from account", Integer.class);
+        return super.getJdbcTemplate().queryForObject("select count(*) from account", Integer.class);
     }
 
     /**
