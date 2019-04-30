@@ -1,5 +1,8 @@
 package cn.transaction.utils;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -8,11 +11,13 @@ import java.sql.SQLException;
  * 连接工具类
  * 使其只有一个连接
  */
+@Component("connUtil")
 public class ConnectionUtil {
 
     private ThreadLocal<Connection> tl = new ThreadLocal<>();
     private Connection conn = null;
-    private DataSource dataSource = null;
+    @Autowired
+    private DataSource dataSource;
 
     public void setDataSource(DataSource dataSource) {
         this.dataSource = dataSource;

@@ -1,6 +1,7 @@
 package transaction;
 
 
+import cn.transaction.dao.IAccountDao;
 import cn.transaction.serivce.IAccountService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,6 +18,9 @@ public class Client {
     @Qualifier("accountService")
     private IAccountService accountService;
 
+    @Autowired
+    private IAccountDao accountDao;
+
 /*     @Autowired
     @Qualifier("accountServiceProxy")
     private IAccountService accountServiceProxy;*/
@@ -24,7 +28,8 @@ public class Client {
 
     @Test
     public void transferTest(){
-        accountService.transfer(8,9, 100);
+        //accountService.transfer(8,9, 100);
+        accountDao.transfer(8,9, 100);
     }
 
 }
