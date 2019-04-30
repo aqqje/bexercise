@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!--service-->
+    <context:component-scan base-package="cn.springtx.serivce"/>
+    <!--dao-->
+    <bean id="accountDao" class="cn.springtx.dao.impl.AccountDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!--数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql:///mybaties?useUnicode=true&amp;charaterEncoding=utf-8"/>
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+
+    <!--
+        基于xml事务控制配置步骤
+            1.注入事务管理器
+            2.配置事务通知, 引入 tx 约束
+            3.配置 AOP 通用切入点表达式
+            4.建立事务通知与切入点的对应关系
+            5.配置事务属性
+                isolation: 用于指定事务隔离级别,默认值 DEFAULT ,使用数据默认隔离级别
+                timeout: 用于指定事务超时时间,默认值 -1 表示永不超时, 指定数值以秒为单位
+                propagation: 用于指定事务传播行为, 默认值 REQUIRED 表示会有一定事务,增删除改的选择, 查询方法可以选择 SUPPORTS
+                read-only: 用于指定事务是否只读, 只有查询方法才可以设置为true, 默认为 false 表示读写
+                rollback-for: 用于指定一个异常, 产生该异常事务回滚, 产生其异常事务不回滚, 没有默认值,表示任何异常都回滚
+                no-rollback-for: 用于指定一个异常, 产生该异常事务不回滚, 产生其异常事务回滚, 没有默认值,表示任何异常都回滚
+
+
+    -->
+    <!--=================================基于xml事务控制======================================-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED" read-only="false"/>
+            <tx:method name="find*" propagation="SUPPORTS" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(* cn.springtx.serivce.impl.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt1"/>
+    </aop:config>
+    <!--=================================/基于xml事务控制======================================-->
+</beans>
