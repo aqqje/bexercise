@@ -2,8 +2,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!--扫描组件-->
     <context:component-scan base-package="cn.transaction.dao"/>
     <context:component-scan base-package="cn.transaction.serivce"/>
@@ -28,10 +30,21 @@
         <property name="conn" ref="connUtil"/>
     </bean>
 
-    <bean id="beanFactory" class="cn.transaction.proxy.BeanFactory">
+    <!--<bean id="beanFactory" class="cn.transaction.proxy.BeanFactory">
         <property name="accountService" ref="accountService"/>
         <property name="tx" ref="tx"/>
-    </bean>
+    </bean>-->
 
-    <bean id="accountServiceProxy" factory-bean="beanFactory" factory-method="getAccountService"/>
+    <!--<bean id="accountServiceProxy" factory-bean="beanFactory" factory-method="getAccountService"/>-->
+
+    <!--使用 aop 进行事务控制-->
+    <aop:config>
+        <aop:pointcut id="pt1" expression="execution(* cn.transaction.dao.impl.*.*(..))"/>
+        <aop:aspect ref="tx">
+            <aop:before method="beginTransaction" pointcut-ref="pt1"/>
+            <aop:after-returning method="commit" pointcut-ref="pt1"/>
+            <aop:after-throwing method="rollback" pointcut-ref="pt1"/>
+            <aop:after method="release" pointcut-ref="pt1"/>
+        </aop:aspect>
+    </aop:config>
 </beans>

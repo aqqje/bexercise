@@ -57,7 +57,7 @@ public class AccountDaoImpl implements IAccountDao {
         Account source = findById(sourceId);
         Account target = findById(targetId);
         update(sourceId, source.getMoney() - money);
-//        int i = 1 / 0;
+        int i = 1 / 0;
         update(targetId, target.getMoney() + money);
     }
 }

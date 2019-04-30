@@ -16,6 +16,7 @@ public class TransationManager {
     /*开启事务*/
     public void beginTransaction(){
         try{
+            System.out.println("beginTransaction...");
             connUtil.getThreadConnection().setAutoCommit(false);
         }catch (Exception e){
             throw new RuntimeException(e);

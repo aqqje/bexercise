@@ -17,14 +17,14 @@ public class Client {
     @Qualifier("accountService")
     private IAccountService accountService;
 
-     @Autowired
+/*     @Autowired
     @Qualifier("accountServiceProxy")
-    private IAccountService accountServiceProxy;
+    private IAccountService accountServiceProxy;*/
 
 
     @Test
     public void transferTest(){
-        accountServiceProxy.transfer(8,7, 100);
+        accountService.transfer(8,9, 100);
     }
 
 }

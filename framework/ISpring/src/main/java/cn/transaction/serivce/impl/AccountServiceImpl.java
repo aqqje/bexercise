@@ -14,21 +14,18 @@ public class AccountServiceImpl implements IAccountService {
     private IAccountDao accountDao;
 
 
-    @Autowired
+/*    @Autowired
     @Qualifier("tx")
-    private TransationManager tx;
+    private TransationManager tx;*/
 
     @Override
     public void transfer(int sourceId, int targetId, double money) {
         try {
-            tx.beginTransaction();
+            System.out.println("transfer");
             accountDao.transfer(sourceId, targetId, money);
-            tx.commit();
         } catch (Exception e) {
             e.printStackTrace();
-            tx.rollback();
         } finally {
-            tx.release();
         }
     }
 }
