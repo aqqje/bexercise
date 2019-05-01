@@ -9,4 +9,5 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Import({JdbcConfiguration.class, TransactionConfiguration.class})
 @EnableTransactionManagement
 public class SpringConfiguration {
+
 }

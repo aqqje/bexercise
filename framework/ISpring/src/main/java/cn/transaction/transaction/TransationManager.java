@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * 事务管理
+ * 事务管理器
  */
 @Component("tx")
 @Aspect
