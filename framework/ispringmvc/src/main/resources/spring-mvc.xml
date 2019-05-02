@@ -10,7 +10,7 @@
     <!--扫描组件-->
     <context:component-scan base-package="cn.introduction.controller"/>
 
-    <mvc:view-controller path="*.do" view-name="../para" />
+    <mvc:view-controller path="*.do" view-name="../anno" />
 
     <!--视图解析器-->
     <bean id="ViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
