@@ -9,8 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>framework/lmybatis</module>
-        <module>framework/ISpring</module>
+        <module>framework/imybatis</module>
+        <module>framework/ispring</module>
+        <module>framework/ispringmvc</module>
     </modules>
 
 
