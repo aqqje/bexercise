@@ -1,6 +1,7 @@
 package cn.introduction.controller;
 
 import cn.introduction.domain.Account;
+import cn.introduction.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -26,4 +27,10 @@ public class ParaController {
         return "success";
     }
 
+
+    @RequestMapping(value = "/formtparadata.do", method = RequestMethod.POST)
+    public String formtparadata(User user){
+        System.out.println(user);
+        return "success";
+    }
 }

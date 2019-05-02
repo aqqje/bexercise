@@ -18,7 +18,16 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!--配置类型转化工厂-->
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean id="dateConverter" class="cn.introduction.converter.StringToDateConverter"/>
+            </set>
+        </property>
+    </bean>
+
     <!--开启 spring-mvc 注解支持-->
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven conversion-service="conversionService"/>
 
 </beans>

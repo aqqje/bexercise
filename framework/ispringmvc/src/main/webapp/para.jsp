@@ -30,4 +30,11 @@
     用户年龄:<input type="text" name="map['one'].age"><br/>
     <input type="submit" value="提交">
 </form>
+<hr>
+<form action="param/formtparadata.do" method="post">
+    用户名:<input type="text" name="name"><br/>
+    年龄:<input type="text" name="age"><br/>
+    日期:<input type="text" name="date"><br/>
+    <input type="submit" value="提交">
+</form>
 </html>
