@@ -20,4 +20,10 @@ public class ParaController {
         return "success";
     }
 
+    @RequestMapping(value = "/formtparaset.do"/*, method = RequestMethod.POST*/)
+    public String formtparaset(Account account){
+        System.out.println(account);
+        return "success";
+    }
+
 }
