@@ -34,7 +34,12 @@
 <form action="param/formtparadata.do" method="post">
     用户名:<input type="text" name="name"><br/>
     年龄:<input type="text" name="age"><br/>
+    <%--
+        2019-05-01: spring mvo 转化异常
+        2018/02/03: spring mvc 支持转化
+    --%>
     日期:<input type="text" name="date"><br/>
+
     <input type="submit" value="提交">
 </form>
 </html>

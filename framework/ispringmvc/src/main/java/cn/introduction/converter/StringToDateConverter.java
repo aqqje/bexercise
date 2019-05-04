@@ -7,6 +7,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * 自定义类型转化器(需要实现 Converter 接口)
+ */
 public class StringToDateConverter implements Converter<String, Date> {
 
     /**

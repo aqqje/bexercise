@@ -38,7 +38,7 @@ public class UserController {
     }
 
     /**
-     *
+     * 登录请求处理
      * @return
      */
     @RequestMapping("/login.do")
@@ -54,8 +54,6 @@ public class UserController {
             return "error";
         }
     }
-
-
     /**
      * 模拟业务层
      * @param name
@@ -65,5 +63,4 @@ public class UserController {
         User user = new User(name, "123");
         return user;
     }
-
 }

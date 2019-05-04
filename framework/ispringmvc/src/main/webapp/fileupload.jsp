@@ -16,7 +16,6 @@ spring mvc 文件上传方式:
     上传文件:<input name="uploat" type="file"><br>
     <input type="submit"  value="提交">
 </form>
-
 <hr>
 跨服务器文件上传
 <form action="user/fileUpload3.do" method="post" enctype="multipart/form-data">
