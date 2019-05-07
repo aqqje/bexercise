@@ -1,5 +1,8 @@
-package sword_means_offer.base;
+package swordmeansoffer.base;
 
+/**
+ * @description 链表结构节点
+ */
 public class ListNode {
     public int val;
     public ListNode next = null;

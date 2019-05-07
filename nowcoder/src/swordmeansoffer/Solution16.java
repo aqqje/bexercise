@@ -1,6 +1,6 @@
-package sword_means_offer;
+package swordmeansoffer;
 
-import sword_means_offer.base.ListNode;
+import swordmeansoffer.base.ListNode;
 
 /**
  * @description 牛客剑指offer16
