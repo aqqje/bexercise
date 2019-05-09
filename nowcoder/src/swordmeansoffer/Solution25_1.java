@@ -20,6 +20,14 @@ public class Solution25_1 {
         return this.resultList;
     }
 
+    /**
+     *
+     * @param curNode 当前节点
+     * @param target 目标和
+     * @param curSun 当前和
+     * @param path 当前路径
+     * @param index 当前的几个节点
+     */
     public void isTargetPath(TreeNode curNode, int target, int curSun,int[] path, int index){
         if(curNode == null) return;
         // 添加当前节点值
