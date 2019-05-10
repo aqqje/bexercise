@@ -1,26 +1,21 @@
 package littleredbook;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 /**
- * @author 琉璃201901090019116
- * @description 给定二叉树T（树深度不超过H<=10，深度从1开始，节点个数N<1024，节点编号1~N）的层序和中序遍历，
- * 输出T从左向右叶子节点以及树先序和后序遍历序列
+ * @author
+ * @description
  */
 public class CuriousCaptainPotato {
 
     // 测试
     public static void main(String[] args) {
         /*System.out.println(countOne(13));*/
-        int n = 100;
-
-        for (long i=1;i<=n;i *= 10) {
-            //System.out.println(i);
-            long a = n / i;    //分割点前面的数
-            long b = a % 10;   //当前位数字
-            long c = n % i;    //分割点后面数字
-            System.out.println("分割点前面的数"+a);
-            System.out.println("当前位数字"+b);
-            System.out.println("分割点后面数字"+c);
-        }
+        Scanner sc = new Scanner(System.in);
+        long l = sc.nextLong();
+        long result = countOne1(l);
+        System.out.println(result);
 
     }
     public static long countOne(long n){
@@ -40,5 +35,40 @@ public class CuriousCaptainPotato {
             index++;
         }
         return count;
+    }
+    public static long countOne1(long n){
+        if(n <= 0 || n > 2147483647) return 0;
+        String buffer = "";
+        long count = 0;
+        for(int i = 1; i <= n; i++){
+            buffer += i;
+        }
+        String oldStr = buffer;
+        String newStr = oldStr.replaceAll("1", "");
+        return oldStr.length() - newStr.length();
+    }
+
+    // 牛客329198682号
+    public static long numberOf1Between1AndN(int n, int x){
+        if(n < 0 || x < 1 || x > 9){
+            return 0;
+        }
+        int curr, low, temp, high = n, i = 1;
+        long total = 0;
+        while(high!=0){
+            high = n / (int)Math.pow(10, i); //获取第i位的高位
+            temp = n % (int)Math.pow(10, i); //
+            curr = temp / (int)Math.pow(10, i-1); //获取第i位
+            low = temp%(int)Math.pow(10, i-1); //获取第i位的低位
+            if(curr == x){ //等于x
+                total += high*(int)Math.pow(10, i-1)+ low + 1;
+            }else if(curr < x){ //小于x
+                total += high*(int) Math.pow(10, i-1);
+            }else{ //大于x
+                total += (high + 1) * (int)Math.pow(10, i-1);
+            }
+            i++;
+        }
+        return total;
     }
 }

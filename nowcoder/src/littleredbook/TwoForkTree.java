@@ -5,7 +5,7 @@ import littleredbook.base.TreeNode;
 import java.util.*;
 
 /**
- * @author AqqJe
+ * @author 琉璃201901090019116
  * @description 给定二叉树T（树深度不超过H<=10，深度从1开始，节点个数N<1024，节点编号1~N）的层序和中序遍历，输出T从左向右叶子节点以及树先序和后序遍历序列
  */
 public class TwoForkTree {
