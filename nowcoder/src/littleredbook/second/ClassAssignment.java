@@ -1,4 +1,4 @@
-package littleredbook;
+package littleredbook.second;
 
 /**
  * @author AqqJe

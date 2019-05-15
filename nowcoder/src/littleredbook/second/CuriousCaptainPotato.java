@@ -1,6 +1,5 @@
-package littleredbook;
+package littleredbook.second;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**

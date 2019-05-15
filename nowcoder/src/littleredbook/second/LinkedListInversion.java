@@ -1,8 +1,6 @@
-package littleredbook;
+package littleredbook.second;
 
 import swordmeansoffer.base.ListNode;
-
-import java.util.Scanner;
 
 /**
  * @author AqqJe

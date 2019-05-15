@@ -1,4 +1,4 @@
-package littleredbook;
+package littleredbook.one;
 
 import java.util.Scanner;
 
