@@ -7,6 +7,10 @@ import java.util.Date;
 /**
  * @author AqqJe
  * @description 计算出一个人已经出生了多少天。
+ * 思路：
+ * 1.获取当前时间对应的毫秒值
+ * 2.获取自己出生日期对应的毫秒值
+ * 3.两个时间相减（当前时间– 出生日期）
  */
 public class Solution1 {
 
