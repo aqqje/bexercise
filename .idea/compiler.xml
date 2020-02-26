@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bexercise" />
+        <module name="ispringmvc" />
+        <module name="ISpring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bexercise" target="1.8" />
+      <module name="bexercise" target="1.5" />
+      <module name="gper" target="1.5" />
+      <module name="ISpring" target="1.8" />
+      <module name="ispringmvc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
