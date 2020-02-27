@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper: add =&gt; all">
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/designpattern/operation/AbstractPayFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/designpattern/operation/AliPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/designpattern/operation/ApplePay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/designpattern/operation/CrossBorderPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/designpattern/operation/DomesticPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/designpattern/operation/IPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/designpattern/operation/UniPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/designpattern/operation/WxPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/designpattern/operation/PaymentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:designpttern add =&gt; factorymode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bexercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bexercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +48,11 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\designpattern\factorymode" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\designpattern" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\factorymode" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="designpattern.operation" />
       <recent name="designpattern" />
@@ -142,7 +133,8 @@
       <workItem from="1555926145685" duration="315000" />
       <workItem from="1555926687034" duration="607000" />
       <workItem from="1555935178011" duration="233000" />
-      <workItem from="1582715518293" duration="4036000" />
+      <workItem from="1582715518293" duration="5118000" />
+      <workItem from="1582800460504" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -151,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555919892343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gper:designpttern add =&gt; factorymode">
+      <created>1582724528561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582724528561</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gper:designpttern add =&gt; factorymode">
+      <created>1582724583381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582724583381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +168,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -172,6 +180,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="web-fornt-end: add =&gt; all" />
     <MESSAGE value="javaWeb: add =&gt; all" />
-    <option name="LAST_COMMIT_MESSAGE" value="javaWeb: add =&gt; all" />
+    <MESSAGE value="gper:designpttern add =&gt; factorymode" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper:designpttern add =&gt; factorymode" />
   </component>
 </project>
