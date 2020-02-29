@@ -21,7 +21,7 @@
     <bytecodeTargetLevel>
       <module name="bexercise" target="1.5" />
       <module name="framework" target="1.5" />
-      <module name="gper" target="1.5" />
+      <module name="gper" target="8" />
       <module name="interview" target="1.5" />
       <module name="ISpring" target="1.8" />
       <module name="ispringmvc" target="1.8" />

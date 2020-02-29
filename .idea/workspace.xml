@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper: add ==&gt;">
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazySimpleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazyStaticInnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Seriable/SeriableSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/ThreadLocal/ThreadLocalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ContainerSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/EnumSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ExectorThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/LazySimpleSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/Pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ReferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/SeriableSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ThreadLocalSingletonTest.java" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:designpattern add ==&gt; signleton">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/ContainerSingleton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web-front-end" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -218,7 +204,7 @@
       <workItem from="1555935178011" duration="233000" />
       <workItem from="1582715518293" duration="5118000" />
       <workItem from="1582800460504" duration="709000" />
-      <workItem from="1582966583810" duration="8696000" />
+      <workItem from="1582966583810" duration="10773000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -255,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582967422028</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gper:designpattern add ==&gt; signleton">
+      <created>1582975316863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582975316863</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +273,8 @@
     <MESSAGE value="javaWeb: add =&gt; all" />
     <MESSAGE value="gper:designpttern add =&gt; factorymode" />
     <MESSAGE value="Project: add ==&gt; refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project: add ==&gt; refactoring" />
+    <MESSAGE value="gper:designpattern add ==&gt; signleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper:designpattern add ==&gt; signleton" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
