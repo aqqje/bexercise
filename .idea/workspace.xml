@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:designpttern add =&gt; factorymode">
-      <change afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowcoder/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-front-end/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper: add ==&gt;">
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazySimpleSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazyStaticInnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Seriable/SeriableSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/ThreadLocal/ThreadLocalSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/ContainerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ContainerSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/EnumSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ExectorThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/LazySimpleSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/Pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ReferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/SeriableSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ThreadLocalSingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/test" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,14 +97,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="PaymentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.operation.PaymentTest" />
+  <component name="RunManager" selected="Application.ThreadLocalSingletonTest">
+    <configuration name="ContainerSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.singleton.ContainerSingletonTest" />
       <module name="gper" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.operation.*" />
+          <option name="PATTERN" value="vip.designpattern.singleton.Seriable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazySimpleSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.singleton.LazySimpleSingletonTest" />
+      <module name="gper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.designpattern.singleton.Seriable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.singleton.ReferTest" />
+      <module name="gper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.designpattern.singleton.Seriable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeriableSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.singleton.SeriableSingletonTest" />
+      <module name="gper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.designpattern.singleton.Seriable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.singleton.ThreadLocalSingletonTest" />
+      <module name="gper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,7 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PaymentTest" />
+        <item itemvalue="Application.ThreadLocalSingletonTest" />
+        <item itemvalue="Application.SeriableSingletonTest" />
+        <item itemvalue="Application.ContainerSingletonTest" />
+        <item itemvalue="Application.ReferTest" />
+        <item itemvalue="Application.LazySimpleSingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +218,7 @@
       <workItem from="1555935178011" duration="233000" />
       <workItem from="1582715518293" duration="5118000" />
       <workItem from="1582800460504" duration="709000" />
-      <workItem from="1582966583810" duration="759000" />
+      <workItem from="1582966583810" duration="8696000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -183,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582810904469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Project: add ==&gt; refactoring">
+      <created>1582967422028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582967422028</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +279,31 @@
     <MESSAGE value="web-fornt-end: add =&gt; all" />
     <MESSAGE value="javaWeb: add =&gt; all" />
     <MESSAGE value="gper:designpttern add =&gt; factorymode" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper:designpttern add =&gt; factorymode" />
+    <MESSAGE value="Project: add ==&gt; refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project: add ==&gt; refactoring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/gper/test/vip/designpattern/singleton/LazySimpleSingletonTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ExectorThread.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazySimpleSingleton.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
   </component>
 </project>
