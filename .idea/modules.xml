@@ -4,7 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/framework/ISpring/ISpring.iml" filepath="$PROJECT_DIR$/framework/ISpring/ISpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/bexercise.iml" filepath="$PROJECT_DIR$/bexercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gper/gper.iml" filepath="$PROJECT_DIR$/gper/gper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interview/interview.iml" filepath="$PROJECT_DIR$/interview/interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/ispringmvc/ispringmvc.iml" filepath="$PROJECT_DIR$/framework/ispringmvc/ispringmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/javase.iml" filepath="$PROJECT_DIR$/javase/javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb/javaweb.iml" filepath="$PROJECT_DIR$/javaweb/javaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nowcoder/nowcoder.iml" filepath="$PROJECT_DIR$/nowcoder/nowcoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/sql.iml" filepath="$PROJECT_DIR$/sql/sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-front-end/web-front-end.iml" filepath="$PROJECT_DIR$/web-front-end/web-front-end.iml" />
     </modules>
   </component>
 </project>

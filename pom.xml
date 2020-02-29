@@ -9,8 +9,15 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>framework/ispring</module>
-        <module>framework/ispringmvc</module>
+        <module>framework</module>
+        <module>gper</module>
+        <module>interview</module>
+        <module>javase</module>
+        <module>javaweb</module>
+        <module>nowcoder</module>
+        <module>sql</module>
+        <module>web-front-end</module>
+
     </modules>
 
 

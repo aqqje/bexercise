@@ -6,15 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sql" />
+        <module name="framework" />
         <module name="ispringmvc" />
+        <module name="gper" />
+        <module name="web-front-end" />
         <module name="ISpring" />
+        <module name="javaweb" />
+        <module name="nowcoder" />
+        <module name="interview" />
+        <module name="javase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bexercise" target="1.5" />
+      <module name="framework" target="1.5" />
       <module name="gper" target="1.5" />
+      <module name="interview" target="1.5" />
       <module name="ISpring" target="1.8" />
       <module name="ispringmvc" target="1.8" />
+      <module name="javase" target="1.5" />
+      <module name="javaweb" target="1.5" />
+      <module name="nowcoder" target="1.5" />
+      <module name="sql" target="1.5" />
+      <module name="web-front-end" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
