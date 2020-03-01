@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:pub add ==&gt; optional">
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures/functionlInterface/SayHelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/pub/FunctionalInterface/SayHelloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/pub/lambda/LambdaTest.java" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:pub funcationalInterface ==&gt; funcationalInterface">
+      <change afterPath="$PROJECT_DIR$/gper/test/pub/streamingperation/StreamingOperationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/pub/java8newfeatures/Optional/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures/Optional/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/pub/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/test/pub/optional/OptionalTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SayHelloTest">
+  <component name="RunManager" selected="Application.StreamingOperationTest">
     <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pub.lambda.LambdaTest" />
       <module name="gper" />
@@ -127,13 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeriableSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.designpattern.singleton.SeriableSingletonTest" />
+    <configuration name="StreamingOperationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pub.streamingperation.StreamingOperationTest" />
       <module name="gper" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vip.designpattern.singleton.Seriable.*" />
+          <option name="PATTERN" value="pub.streamingperation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamingOperationTest" />
         <item itemvalue="Application.SayHelloTest" />
         <item itemvalue="Application.LambdaTest" />
         <item itemvalue="Application.OptionalTest" />
         <item itemvalue="Application.ThreadLocalSingletonTest" />
-        <item itemvalue="Application.SeriableSingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +203,7 @@
       <workItem from="1582800460504" duration="709000" />
       <workItem from="1582966583810" duration="11396000" />
       <workItem from="1583026569934" duration="2914000" />
-      <workItem from="1583047366210" duration="2316000" />
+      <workItem from="1583047366210" duration="3179000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -265,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583047964685</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gper:pub funcationalInterface ==&gt; funcationalInterface">
+      <created>1583049929337</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583049929337</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +296,8 @@
     <MESSAGE value="gper:designpattern add ==&gt; signleton" />
     <MESSAGE value="gper:designpattern add ==&gt; signleton1" />
     <MESSAGE value="gper:pub add ==&gt; optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper:pub add ==&gt; optional" />
+    <MESSAGE value="gper:pub funcationalInterface ==&gt; funcationalInterface" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper:pub funcationalInterface ==&gt; funcationalInterface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
