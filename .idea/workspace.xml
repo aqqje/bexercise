@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:designpattern add ==&gt; signleton">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:designpattern add ==&gt; signleton1">
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/pub/java8newfeatures/Optional/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/pub/OptionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/ContainerSingleton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalSingletonTest">
+  <component name="RunManager" selected="Application.OptionalTest">
     <configuration name="ContainerSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vip.designpattern.singleton.ContainerSingletonTest" />
       <module name="gper" />
@@ -98,13 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazySimpleSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.designpattern.singleton.LazySimpleSingletonTest" />
+    <configuration name="OptionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pub.OptionalTest" />
       <module name="gper" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vip.designpattern.singleton.Seriable.*" />
+          <option name="PATTERN" value="pub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalTest" />
         <item itemvalue="Application.ThreadLocalSingletonTest" />
         <item itemvalue="Application.SeriableSingletonTest" />
         <item itemvalue="Application.ContainerSingletonTest" />
         <item itemvalue="Application.ReferTest" />
-        <item itemvalue="Application.LazySimpleSingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +202,9 @@
       <workItem from="1555935178011" duration="233000" />
       <workItem from="1582715518293" duration="5118000" />
       <workItem from="1582800460504" duration="709000" />
-      <workItem from="1582966583810" duration="10773000" />
+      <workItem from="1582966583810" duration="11396000" />
+      <workItem from="1583026569934" duration="2914000" />
+      <workItem from="1583047366210" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582975316863</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gper:designpattern add ==&gt; signleton1">
+      <created>1582979545220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582979545220</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +281,8 @@
     <MESSAGE value="gper:designpttern add =&gt; factorymode" />
     <MESSAGE value="Project: add ==&gt; refactoring" />
     <MESSAGE value="gper:designpattern add ==&gt; signleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper:designpattern add ==&gt; signleton" />
+    <MESSAGE value="gper:designpattern add ==&gt; signleton1" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper:designpattern add ==&gt; signleton1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
