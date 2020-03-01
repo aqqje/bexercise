@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:pub streamingOperation ==&gt; streamingOperationTest">
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures/methodreference/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures/methodreference/PersonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/test/pub/methodreference/MethodReferenceTest.java" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:pub methodReferent ==&gt; methodReferent">
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/chain/CourseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/simple/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/simple/CourseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/sql/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/sql/QueryRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/sql/QueryRuleSqlBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/builder/chain/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/builder/simple/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/builder/sql/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bexercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bexercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -51,23 +59,26 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="designpattern.operation" />
-      <recent name="designpattern" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\pub\java8NewFeatures" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\web-front-end" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\sql" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\nowcoder" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\javaweb" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\vip" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\designpattern\factorymode" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\designpattern" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\factorymode" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="vip.designpattern.builder.sql" />
+      <recent name="vip.designpattern.builder.simple" />
+      <recent name="vip.designpattern.builder.chain" />
+      <recent name="vip.designpattern" />
+      <recent name="designpattern.operation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\factorymode\operation" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\pub\java8NewFeatures" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\web-front-end" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\sql" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\nowcoder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,7 +216,8 @@
       <workItem from="1582800460504" duration="709000" />
       <workItem from="1582966583810" duration="11396000" />
       <workItem from="1583026569934" duration="2914000" />
-      <workItem from="1583047366210" duration="4683000" />
+      <workItem from="1583047366210" duration="5330000" />
+      <workItem from="1583059228205" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -277,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583050764439</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gper:pub methodReferent ==&gt; methodReferent">
+      <created>1583052079404</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583052079404</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +326,8 @@
     <MESSAGE value="gper:pub add ==&gt; optional" />
     <MESSAGE value="gper:pub funcationalInterface ==&gt; funcationalInterface" />
     <MESSAGE value="gper:pub streamingOperation ==&gt; streamingOperationTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper:pub streamingOperation ==&gt; streamingOperationTest" />
+    <MESSAGE value="gper:pub methodReferent ==&gt; methodReferent" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper:pub methodReferent ==&gt; methodReferent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
