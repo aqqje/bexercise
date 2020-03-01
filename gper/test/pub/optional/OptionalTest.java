@@ -1,6 +1,6 @@
-package pub;
+package pub.optional;
 
-import pub.java8newfeatures.Optional.Person;
+import pub.java8NewFeatures.Optional.Person;
 
 import java.util.Optional;
 
