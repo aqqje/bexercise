@@ -1,23 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:vip builder add ==&gt; builder">
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/deep/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/deep/ConcretePrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/demo/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/demo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/demo/ExamPaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/general/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/general/ConcretePrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/general/IPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/shallow/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/shallow/ConcretePrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/singleton/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/singleton/ConcretePrototype.java" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:vip prototype add ==&gt; prototype">
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/DbRouteProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/db/DynamicDataSourceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy2/CglibMeipo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/GpMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/Zhangsan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/JdkMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/Zhangsan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/ZhaoLiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/JdkMeipo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/Zhangsan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/ZhaoLiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/general/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/general/ISubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/general/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/general/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/staticproxy/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/staticproxy/ZhangLaosan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/staticproxy/ZhangSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/staticproxy/ZhaoLiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/dynamicproxy/cglibproxy2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/dynamicproxy/jdkproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/dynamicproxy/jdkproxy2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/staticproxy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bexercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bexercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/sql/QueryRuleSqlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/sql/QueryRuleSqlBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +79,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper/src/main/java/vip/designpattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -63,26 +88,29 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="vip.designpattern.proxy.dynamicproxy.jdkproxy" />
+      <recent name="vip.designpattern.proxy.dynamicproxy.cglibproxy" />
+      <recent name="vip.designpattern.proxy.dynamicproxy" />
+      <recent name="vip.designpattern.proxy.staticproxy" />
+      <recent name="vip.designpattern.builder.sql" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\proxy\dynamicproxy\jdkproxy2" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\proxy" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\factorymode\operation" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\pub\java8NewFeatures" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vip.designpattern.proxy.dynamicproxy.cglibproxy2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\vip" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\designpattern\factorymode" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\designpattern" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\factorymode" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="vip.designpattern.builder.sql" />
-      <recent name="vip.designpattern.builder.simple" />
-      <recent name="vip.designpattern.builder.chain" />
-      <recent name="vip.designpattern" />
-      <recent name="designpattern.operation" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\factorymode\operation" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\pub\java8NewFeatures" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\web-front-end" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\sql" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vip.designpattern.prototype.deep.Client" />
       <module name="gper" />
@@ -105,20 +133,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="vip.designpattern.prototype.deep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pub.lambda.LambdaTest" />
-      <module name="gper" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pub.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,20 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SayHelloTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pub.FunctionalInterface.SayHelloTest" />
-      <module name="gper" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pub.FunctionalInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamingOperationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pub.streamingperation.StreamingOperationTest" />
       <module name="gper" />
@@ -161,6 +161,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pub.streamingperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.proxy.dynamicproxy.cglibproxy2.Test" />
+      <module name="gper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.designpattern.proxy.dynamicproxy.cglibproxy2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.proxy.dynamicproxy.jdkproxy2.Test" />
+      <module name="gper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.designpattern.proxy.dynamicproxy.jdkproxy2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.MethodReferenceTest" />
         <item itemvalue="Application.StreamingOperationTest" />
-        <item itemvalue="Application.SayHelloTest" />
-        <item itemvalue="Application.LambdaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +249,9 @@
       <workItem from="1582966583810" duration="11396000" />
       <workItem from="1583026569934" duration="2914000" />
       <workItem from="1583047366210" duration="5330000" />
-      <workItem from="1583059228205" duration="3713000" />
+      <workItem from="1583059228205" duration="4456000" />
+      <workItem from="1583129628602" duration="108000" />
+      <workItem from="1583646283497" duration="5699000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -307,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583060764203</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="gper:vip prototype add ==&gt; prototype">
+      <created>1583064070313</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583064070313</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +376,8 @@
     <MESSAGE value="gper:pub streamingOperation ==&gt; streamingOperationTest" />
     <MESSAGE value="gper:pub methodReferent ==&gt; methodReferent" />
     <MESSAGE value="gper:vip builder add ==&gt; builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper:vip builder add ==&gt; builder" />
+    <MESSAGE value="gper:vip prototype add ==&gt; prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper:vip prototype add ==&gt; prototype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
