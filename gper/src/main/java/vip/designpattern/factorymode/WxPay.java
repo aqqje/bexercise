@@ -1,4 +1,4 @@
-package designpattern.operation;
+package vip.designpattern.factorymode;
 
 /**
  * 微信支付

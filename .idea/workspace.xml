@@ -2,39 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:vip proxy add ==&gt; proxy">
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/safe/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/safe/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/safe/Folder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/safe/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/transparent/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/transparent/CourseComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/transparent/CoursePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/transparent/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/safe/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/safe/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/safe/Leaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/safe/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/transparent/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/transparent/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/transparent/Leaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/transparent/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/homework/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/homework/BookCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/homework/BookStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/homework/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/general/ConcreteFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/general/FlyweightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/general/IFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/general/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/jdk/integer/IntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/jdk/string/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/pool/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/pool/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/ticket/ITicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/ticket/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/ticket/TicketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/ticket/TrainTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/BaseNavBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/INaviBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v1/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v1/BattercakeWithEgg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v1/BattercakeWithEggAndSauage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/BaseBattercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/BattercakeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/SauageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/decorator/AbsNavBarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/decorator/GrowthWallNavBarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/decorator/QueryNavBarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/decorator/UserManagementNavBarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/ConcreteComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/ConcreteDecoratorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/ConcreteDecoratorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/logger/JsonLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/logger/JsonLoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/logger/LoggerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/logger/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/IPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/impl/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/impl/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/impl/Tourists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/impl/Vip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/SubSystemA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/SubSystemB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/SubSystemC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/FacadeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/GiftInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/QualifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/ShippingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation/AbstractPayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/AbstractPayFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation/AliPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/AliPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation/ApplePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/ApplePay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation/CrossBorderPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/CrossBorderPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation/DomesticPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/DomesticPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation/IPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/IPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation/UniPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/UniPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/operation/WxPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/WxPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/factorymode/operation/PaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper/test/vip/designpattern/factorymode/PaymentTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +67,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +78,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="C:\AqqJe\Env\Maven\Maven-repo" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../Env/Maven/Apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -70,6 +94,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gper/src/main/java/vip/designpattern" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -80,12 +106,28 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="vip.designpattern.decorator.homework" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\vip" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\designpattern\factorymode" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\designpattern" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\factorymode" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="vip.designpattern.proxy.dynamicproxy.jdkproxy" />
       <recent name="vip.designpattern.proxy.dynamicproxy.cglibproxy" />
       <recent name="vip.designpattern.proxy.dynamicproxy" />
       <recent name="vip.designpattern.proxy.staticproxy" />
       <recent name="vip.designpattern.builder.sql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vip.designpattern.proxy.dynamicproxy.cglibproxy2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern" />
@@ -94,15 +136,8 @@
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\proxy" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\factorymode\operation" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="vip.designpattern.proxy.dynamicproxy.cglibproxy2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\vip" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\designpattern\factorymode" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\designpattern" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\factorymode" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="vip.designpattern.decorator.homework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -117,35 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.designpattern.prototype.deep.Client" />
-      <module name="gper" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vip.designpattern.prototype.deep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pub.methodreference.MethodReferenceTest" />
-      <module name="gper" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pub.methodreference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test (5)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vip.designpattern.proxy.dynamicproxy.cglibproxy2.Test" />
       <module name="gper" />
@@ -174,13 +181,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.designpattern.proxy.dynamicproxy.jdkproxy2.Test" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.facade.points.Test" />
       <module name="gper" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vip.designpattern.proxy.dynamicproxy.jdkproxy2.*" />
+          <option name="PATTERN" value="vip.designpattern.facade.points.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.decorator.homework.Test" />
+      <module name="gper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.designpattern.decorator.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.designpattern.memento.editor.Test" />
+      <module name="gper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.designpattern.memento.editor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.MethodReferenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +279,12 @@
       <workItem from="1583059228205" duration="4456000" />
       <workItem from="1583129628602" duration="108000" />
       <workItem from="1583646283497" duration="10665000" />
+      <workItem from="1583678632164" duration="4847000" />
+      <workItem from="1583761156095" duration="609000" />
+      <workItem from="1583932406621" duration="2043000" />
+      <workItem from="1583935864928" duration="304000" />
+      <workItem from="1584100908598" duration="183000" />
+      <workItem from="1584753732645" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -343,7 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583658793760</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="gper:vip composite&amp;&amp;flyweight add ==&gt; composite&amp;&amp;flyweight">
+      <created>1583678705265</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583678705265</updated>
+    </task>
+    <task id="LOCAL-00016" summary="gper:vip proxy add ==&gt; proxy">
+      <created>1583678725120</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583678725120</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +431,7 @@
     <MESSAGE value="gper:pub methodReferent ==&gt; methodReferent" />
     <MESSAGE value="gper:vip builder add ==&gt; builder" />
     <MESSAGE value="gper:vip prototype add ==&gt; prototype" />
+    <MESSAGE value="gper:vip composite&amp;&amp;flyweight add ==&gt; composite&amp;&amp;flyweight" />
     <MESSAGE value="gper:vip proxy add ==&gt; proxy" />
     <option name="LAST_COMMIT_MESSAGE" value="gper:vip proxy add ==&gt; proxy" />
   </component>

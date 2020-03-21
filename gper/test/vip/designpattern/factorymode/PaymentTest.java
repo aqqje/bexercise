@@ -1,7 +1,4 @@
-package designpattern.operation;
-
-import designpattern.operation.CrossBorderPayment;
-import designpattern.operation.DomesticPayment;
+package vip.designpattern.factorymode;
 
 /**
  * 测试

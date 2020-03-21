@@ -1,4 +1,4 @@
-package designpattern.operation;
+package vip.designpattern.factorymode;
 
 /**
  * 支付抽象工厂
