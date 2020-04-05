@@ -10,13 +10,14 @@
     <version>1.0</version>
     <modules>
         <module>framework</module>
-        <module>gper</module>
+        <module>gper-pattern</module>
         <module>interview</module>
         <module>javase</module>
         <module>javaweb</module>
         <module>nowcoder</module>
         <module>sql</module>
         <module>web-front-end</module>
+        <module>gper-spring</module>
 
     </modules>
     <dependencies>

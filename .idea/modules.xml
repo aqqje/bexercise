@@ -5,7 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/framework/ISpring/ISpring.iml" filepath="$PROJECT_DIR$/framework/ISpring/ISpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/bexercise.iml" filepath="$PROJECT_DIR$/bexercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gper/gper.iml" filepath="$PROJECT_DIR$/gper/gper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gper-pattern/gper-pattern.iml" filepath="$PROJECT_DIR$/gper-pattern/gper-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gper-spring/gper-spring.iml" filepath="$PROJECT_DIR$/gper-spring/gper-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/interview/interview.iml" filepath="$PROJECT_DIR$/interview/interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/ispringmvc/ispringmvc.iml" filepath="$PROJECT_DIR$/framework/ispringmvc/ispringmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/javase/javase.iml" filepath="$PROJECT_DIR$/javase/javase.iml" />

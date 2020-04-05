@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/framework/ISpring" />
     <file type="web" url="file://$PROJECT_DIR$/framework/ispringmvc" />
+    <file type="web" url="file://$PROJECT_DIR$/gper-spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
