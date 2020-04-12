@@ -6,215 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:vip memento add ==&gt; memento">
-      <change afterPath="$PROJECT_DIR$/gper-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/mvc/action/DemoAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/mvc/action/TestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/mvc/action/TwoAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/service/IDemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/service/impl/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPAutowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPRequestMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPRequestParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv3/GPDispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv3/OMDispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:vip spring-1 add ==&gt; spring-1">
+      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv2/GPDispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv2/OMDispatcherServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures/Optional/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/pub/java8NewFeatures/Optional/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures/functionlInterface/SayHelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/pub/java8NewFeatures/functionlInterface/SayHelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures/methodreference/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/pub/java8NewFeatures/methodreference/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/pub/java8NewFeatures/methodreference/PersonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/pub/java8NewFeatures/methodreference/PersonFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/chain/CourseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/builder/chain/CourseBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/simple/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/builder/simple/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/simple/CourseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/builder/simple/CourseBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/sql/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/builder/sql/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/sql/QueryRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/builder/sql/QueryRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/builder/sql/QueryRuleSqlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/builder/sql/QueryRuleSqlBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/safe/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/demo/safe/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/safe/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/demo/safe/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/safe/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/demo/safe/Folder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/safe/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/demo/safe/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/transparent/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/demo/transparent/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/transparent/CourseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/demo/transparent/CourseComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/transparent/CoursePackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/demo/transparent/CoursePackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/demo/transparent/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/demo/transparent/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/safe/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/general/safe/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/safe/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/general/safe/Composite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/safe/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/general/safe/Leaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/safe/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/general/safe/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/transparent/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/general/transparent/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/transparent/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/general/transparent/Composite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/transparent/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/general/transparent/Leaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/general/transparent/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/general/transparent/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/homework/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/homework/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/homework/BookCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/homework/BookCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/homework/BookStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/homework/BookStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/composite/homework/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/composite/homework/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/BaseNavBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/BaseNavBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/INaviBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/INaviBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v1/Battercake.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v1/Battercake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v1/BattercakeWithEgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v1/BattercakeWithEgg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v1/BattercakeWithEggAndSauage.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v1/BattercakeWithEggAndSauage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/BaseBattercake.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v2/BaseBattercake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/Battercake.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v2/Battercake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/BattercakeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v2/BattercakeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/EggDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v2/EggDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/SauageDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v2/SauageDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/battercake/v2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/battercake/v2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/decorator/AbsNavBarDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/decorator/AbsNavBarDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/decorator/GrowthWallNavBarDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/decorator/GrowthWallNavBarDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/decorator/QueryNavBarDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/decorator/QueryNavBarDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/decorator/UserManagementNavBarDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/decorator/UserManagementNavBarDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/general/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/general/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/ConcreteComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/general/ConcreteComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/ConcreteDecoratorA.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/general/ConcreteDecoratorA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/ConcreteDecoratorB.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/general/ConcreteDecoratorB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/general/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/general/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/logger/JsonLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/logger/JsonLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/logger/JsonLoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/logger/JsonLoggerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/logger/LoggerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/logger/LoggerDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/logger/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/logger/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/IPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/roles/IPermission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/impl/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/roles/impl/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/impl/Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/roles/impl/Normal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/impl/Tourists.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/roles/impl/Tourists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/decorator/roles/impl/Vip.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/decorator/roles/impl/Vip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/general/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/SubSystemA.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/general/SubSystemA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/SubSystemB.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/general/SubSystemB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/SubSystemC.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/general/SubSystemC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/general/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/general/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/FacadeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/points/FacadeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/GiftInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/points/GiftInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/points/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/QualifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/points/QualifyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/ShippingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/points/ShippingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/facade/points/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/facade/points/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/AbstractPayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/factorymode/AbstractPayFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/AliPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/factorymode/AliPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/ApplePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/factorymode/ApplePay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/CrossBorderPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/factorymode/CrossBorderPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/DomesticPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/factorymode/DomesticPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/IPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/factorymode/IPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/UniPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/factorymode/UniPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/factorymode/WxPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/factorymode/WxPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/general/ConcreteFlyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/general/ConcreteFlyweight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/general/FlyweightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/general/FlyweightFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/general/IFlyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/general/IFlyweight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/general/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/general/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/jdk/integer/IntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/jdk/integer/IntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/jdk/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/jdk/string/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/pool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/pool/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/pool/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/pool/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/ticket/ITicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/ticket/ITicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/ticket/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/ticket/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/ticket/TicketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/ticket/TicketFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/flyweight/ticket/TrainTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/flyweight/ticket/TrainTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/editor/ArticleMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/editor/ArticleMemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/editor/DraftsBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/editor/DraftsBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/editor/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/editor/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/editor/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/editor2/AricleMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/editor2/AricleMemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/editor2/DraftsBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/editor2/DraftsBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/editor2/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/editor2/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/editor2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/editor2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/general/Caretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/general/Caretaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/general/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/general/Memento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/general/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/general/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/general/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/general/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/general2/Caretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/general2/Caretaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/general2/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/general2/Memento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/general2/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/general2/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/memento/general2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/memento/general2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/deep/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/deep/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/deep/ConcretePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/deep/ConcretePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/demo/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/demo/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/demo/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/demo/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/demo/ExamPaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/demo/ExamPaper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/general/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/general/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/general/ConcretePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/general/ConcretePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/general/IPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/general/IPrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/shallow/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/shallow/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/shallow/ConcretePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/shallow/ConcretePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/singleton/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/prototype/singleton/ConcretePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/prototype/singleton/ConcretePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/DbRouteProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dbroute/DbRouteProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dbroute/IOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dbroute/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dbroute/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dbroute/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/db/DynamicDataSourceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dbroute/db/DynamicDataSourceEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy2/CglibMeipo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy2/CglibMeipo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/cglibproxy2/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/GpMeipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/GpMeipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/IPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/Zhangsan.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/client/Zhangsan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/gpproxy/proxy/GPProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/IPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/JdkMeipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/JdkMeipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/Zhangsan.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/Zhangsan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/ZhaoLiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy/ZhaoLiu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/IPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/JdkMeipo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/JdkMeipo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/Zhangsan.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/Zhangsan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/ZhaoLiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/dynamicproxy/jdkproxy2/ZhaoLiu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/general/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/general/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/general/ISubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/general/ISubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/general/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/general/Proxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/general/RealSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/general/RealSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/staticproxy/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/staticproxy/IPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/staticproxy/ZhangLaosan.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/staticproxy/ZhangLaosan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/staticproxy/ZhangSan.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/staticproxy/ZhangSan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/proxy/staticproxy/ZhaoLiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/proxy/staticproxy/ZhaoLiu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazyDoubleCheckSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/Lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazySimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/Lazy/LazySimpleSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Lazy/LazyStaticInnerClassSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/Lazy/LazyStaticInnerClassSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/Seriable/SeriableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/Seriable/SeriableSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/ThreadLocal/ThreadLocalSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/ThreadLocal/ThreadLocalSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/hungry/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/hungry/HungryStaticSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/register/ContainerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/src/main/java/vip/designpattern/singleton/register/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/src/main/java/vip/designpattern/singleton/register/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/pub/FunctionalInterface/SayHelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/pub/FunctionalInterface/SayHelloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/pub/lambda/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/pub/lambda/LambdaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/pub/methodreference/MethodReferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/pub/methodreference/MethodReferenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/pub/optional/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/pub/optional/OptionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/pub/streamingperation/StreamingOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/pub/streamingperation/StreamingOperationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/builder/chain/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/builder/chain/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/builder/simple/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/builder/simple/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/builder/sql/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/builder/sql/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/factorymode/PaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/factorymode/PaymentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/dynamicproxy/cglibproxy2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/proxy/dynamicproxy/cglibproxy2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/dynamicproxy/jdkproxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/proxy/dynamicproxy/jdkproxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/dynamicproxy/jdkproxy2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/proxy/dynamicproxy/jdkproxy2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/proxy/staticproxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/proxy/staticproxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ContainerSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/singleton/ContainerSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/EnumSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/singleton/EnumSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ExectorThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/singleton/ExectorThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/LazySimpleSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/singleton/LazySimpleSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/Pojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/singleton/Pojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ReferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/singleton/ReferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/SeriableSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/singleton/SeriableSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper/test/vip/designpattern/singleton/ThreadLocalSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-pattern/test/vip/designpattern/singleton/ThreadLocalSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv3/GPDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv3/GPDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv3/OMDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv3/OMDispatcherServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -273,6 +70,9 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="vip.designpattern.decorator.homework" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="vip.designpattern.decorator.homework" />
     </key>
@@ -286,13 +86,6 @@
       <recent name="vip.designpattern.proxy.staticproxy" />
       <recent name="vip.designpattern.builder.sql" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\vip" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\designpattern\factorymode" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\designpattern" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\factorymode" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\src\main\java\com\gper\mvcframework\v1" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern" />
@@ -301,10 +94,16 @@
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\proxy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gper.mvcframework.v1.mvcframework.servlet.omv3" />
+      <recent name="com.gper.mvcframework.v1.mvcframework.servlet.gpv3" />
       <recent name="vip.designpattern.proxy.dynamicproxy.cglibproxy2" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="vip.designpattern.decorator.homework" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\vip" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\designpattern\factorymode" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\designpattern" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\factorymode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -654,7 +453,8 @@
       <workItem from="1584753732645" duration="6559000" />
       <workItem from="1584842065658" duration="2809000" />
       <workItem from="1585232535362" duration="29000" />
-      <workItem from="1586080266088" duration="8736000" />
+      <workItem from="1586080266088" duration="9523000" />
+      <workItem from="1586672253330" duration="9098000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -775,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584757315036</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="gper:vip spring-1 add ==&gt; spring-1">
+      <created>1586089224800</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1586089224800</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,7 +618,8 @@
     <MESSAGE value="gper:vip composite&amp;&amp;flyweight add ==&gt; composite&amp;&amp;flyweight" />
     <MESSAGE value="gper:vip proxy add ==&gt; proxy" />
     <MESSAGE value="gper:vip memento add ==&gt; memento" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper:vip memento add ==&gt; memento" />
+    <MESSAGE value="gper:vip spring-1 add ==&gt; spring-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper:vip spring-1 add ==&gt; spring-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -832,14 +640,22 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv3/GPDispatcherServlet.java</url>
+          <url>file://$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv2/GPDispatcherServlet.java</url>
           <line>139</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv3/GPDispatcherServlet.java</url>
+          <url>file://$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv2/GPDispatcherServlet.java</url>
           <line>325</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv3/OMDispatcherServlet.java</url>
+          <line>97</line>
+          <properties class="com.gper.mvcframework.v1.mvcframework.servlet.omv3.OMDispatcherServlet" method="getHandler">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>

@@ -1,4 +1,4 @@
-package com.gper.mvcframework.v1.mvcframework.servlet.gpv3;
+package com.gper.mvcframework.v1.mvcframework.servlet.gpv2;
 
 import com.gper.mvcframework.v1.mvcframework.annotation.*;
 
@@ -18,11 +18,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by Tom.
- */
-public class GPDispatcherServlet extends HttpServlet{
-
+public class GPDispatcherServlet extends HttpServlet {
     //保存application.properties配置文件中的内容
     private Properties contextConfig = new Properties();
 
@@ -32,7 +28,7 @@ public class GPDispatcherServlet extends HttpServlet{
     //传说中的IOC容器，我们来揭开它的神秘面纱
     //为了简化程序，暂时不考虑ConcurrentHashMap
     // 主要还是关注设计思想和原理
-    private Map<String, Object> ioc = new HashMap<String, Object>();
+    private Map<String,Object> ioc = new HashMap<String,Object>();
 
     //保存url和Method的对应关系
 //    private Map<String,Method> handlerMapping = new HashMap<String,Method>();
@@ -64,19 +60,19 @@ public class GPDispatcherServlet extends HttpServlet{
 
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 
-       Handler handler = getHandler(req);
-       if(handler == null){
+        Handler handler = getHandler(req);
+        if(handler == null){
 //        if(!this.handlerMapping.containsKey(url)){
             resp.getWriter().write("404 Not Found!!!");
             return;
         }
 
         //获得方法的形参列表
-        Class<?>[] paramTypes = handler.getParamTypes();
+        Class<?> [] paramTypes = handler.getParamTypes();
 
-        Object[] paramValues = new Object[paramTypes.length];
+        Object [] paramValues = new Object[paramTypes.length];
 
-        Map<String, String[]> params = req.getParameterMap();
+        Map<String,String[]> params = req.getParameterMap();
         for (Map.Entry<String, String[]> parm : params.entrySet()) {
             String value = Arrays.toString(parm.getValue()).replaceAll("\\[|\\]","")
                     .replaceAll("\\s",",");
@@ -121,7 +117,7 @@ public class GPDispatcherServlet extends HttpServlet{
 
     //url传过来的参数都是String类型的，HTTP是基于字符串协议
     //只需要把String转换为任意类型就好
-    private Object convert(Class<?> type, String value){
+    private Object convert(Class<?> type,String value){
         //如果是int
         if(Integer.class == type){
             return Integer.valueOf(value);
@@ -145,10 +141,10 @@ public class GPDispatcherServlet extends HttpServlet{
 
         //2、扫描相关的类
         doScanner(contextConfig.getProperty("scanPackage"));
-        
+
         //3、初始化扫描到的类，并且将它们放入到ICO容器之中
         doInstance();
-        
+
         //4、完成依赖注入
         doAutowired();
 
@@ -185,7 +181,7 @@ public class GPDispatcherServlet extends HttpServlet{
                 //优化
                 // //demo///query
                 String regex = ("/" + baseUrl + "/" + requestMapping.value())
-                            .replaceAll("/+","/");
+                        .replaceAll("/+","/");
                 Pattern pattern = Pattern.compile(regex);
                 this.handlerMapping.add(new Handler(pattern,entry.getValue(),method));
 //                handlerMapping.put(url,method);
@@ -350,7 +346,7 @@ public class GPDispatcherServlet extends HttpServlet{
         private Pattern pattern;  //正则
         private Method method;
         private Object controller;
-        private Class<?>[] paramTypes;
+        private Class<?> [] paramTypes;
 
         public Pattern getPattern() {
             return pattern;
@@ -370,7 +366,7 @@ public class GPDispatcherServlet extends HttpServlet{
 
         //形参列表
         //参数的名字作为key,参数的顺序，位置作为值
-        private Map<String, Integer> paramIndexMapping;
+        private Map<String,Integer> paramIndexMapping;
 
         public Handler(Pattern pattern, Object controller, Method method) {
             this.pattern = pattern;
@@ -388,7 +384,7 @@ public class GPDispatcherServlet extends HttpServlet{
             //提取方法中加了注解的参数
             //把方法上的注解拿到，得到的是一个二维数组
             //因为一个参数可以有多个注解，而一个方法又有多个参数
-            Annotation[] [] pa = method.getParameterAnnotations();
+            Annotation [] [] pa = method.getParameterAnnotations();
             for (int i = 0; i < pa.length ; i ++) {
                 for(Annotation a : pa[i]){
                     if(a instanceof GPRequestParam){
@@ -401,7 +397,7 @@ public class GPDispatcherServlet extends HttpServlet{
             }
 
             //提取方法中的request和response参数
-            Class<?>[] paramsTypes = method.getParameterTypes();
+            Class<?> [] paramsTypes = method.getParameterTypes();
             for (int i = 0; i < paramsTypes.length ; i ++) {
                 Class<?> type = paramsTypes[i];
                 if(type == HttpServletRequest.class ||
@@ -413,9 +409,6 @@ public class GPDispatcherServlet extends HttpServlet{
         }
 
 
-//        private 
+//        private
     }
 }
-
-
-

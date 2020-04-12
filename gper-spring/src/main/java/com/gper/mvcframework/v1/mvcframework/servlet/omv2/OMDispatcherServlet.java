@@ -1,4 +1,4 @@
-package com.gper.mvcframework.v1.mvcframework.servlet.omv3;
+package com.gper.mvcframework.v1.mvcframework.servlet.omv2;
 
 import com.gper.mvcframework.v1.mvcframework.annotation.*;
 
@@ -15,8 +15,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class OMDispatcherServlet extends HttpServlet {
     private Properties contextConfig = new Properties();
@@ -27,9 +25,7 @@ public class OMDispatcherServlet extends HttpServlet {
     //IoC容器，key默认是类名首字母小写，value就是对应的实例对象
     private Map<String,Object> ioc = new HashMap<String,Object>();
 
-    // private Map<String,Method> handlerMapping = new HashMap<String, Method>();
-
-    private List<Handler> handlerMapping = new ArrayList<Handler>();
+    private Map<String,Method> handlerMapping = new HashMap<String, Method>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -50,66 +46,49 @@ public class OMDispatcherServlet extends HttpServlet {
     }
 
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws Exception {
-        Handler handler = getHandler(req);
-        if(null == handler){
+        String uri = req.getRequestURI();
+        String contextPath = req.getContextPath();
+        uri = uri.replace(contextPath, "").replaceAll("/+", "/");
+
+        if(!handlerMapping.containsKey(uri)){
             resp.getWriter().write("404 Not Found!!!");
             return;
         }
-        // 形参列表
-        Class<?>[] paramTypes = handler.getParamTypes();
-        Object[] paramValues = new Object[paramTypes.length];
+
         Map<String, String[]> parameterMap = req.getParameterMap();
-        for (Map.Entry<String, String[]> param : parameterMap.entrySet()) {
-            System.out.println(Arrays.toString(param.getValue()));
-            String value = Arrays.toString(param.getValue()).replaceAll("\\[|\\]", "").replaceAll("\\s", "");
-            if(!handler.paramIndexMapping.containsKey(param.getKey())){return;}
-            int index = handler.paramIndexMapping.get(param.getKey());
-            paramValues[index] = convert(paramTypes[index], value);
-        }
-        if(handler.paramIndexMapping.containsKey(HttpServletRequest.class.getName())) {
-            int reqIndex = handler.paramIndexMapping.get(HttpServletRequest.class.getName());
-            paramValues[reqIndex] = req;
-        }
 
-        if(handler.paramIndexMapping.containsKey(HttpServletResponse.class.getName())) {
-            int respIndex = handler.paramIndexMapping.get(HttpServletResponse.class.getName());
-            paramValues[respIndex] = resp;
-        }
-        Object returnValue = handler.method.invoke(handler.controller,paramValues);
-        if(returnValue == null || returnValue instanceof Void){ return; }
-        resp.getWriter().write(returnValue.toString());
-    }
-    //url传过来的参数都是String类型的，HTTP是基于字符串协议
-    //只需要把String转换为任意类型就好
-    private Object convert(Class<?> type, String value){
-        //如果是int
-        if(Integer.class == type){
-            return Integer.valueOf(value);
-        }
-        else if(Double.class == type){
-            return Double.valueOf(value);
-        }
-        //如果还有double或者其他类型，继续加if
-        //这时候，我们应该想到策略模式了
-        //在这里暂时不实现，希望小伙伴自己来实现
-        return value;
-    }
+        Method method = (Method)this.handlerMapping.get(uri);
 
-    private Handler getHandler(HttpServletRequest req) {
-        if(handlerMapping.isEmpty()){return null;}
-        //获取绝对路径
-        String url = req.getRequestURI();
-        //获取上下文路径
-        String contextPath = req.getContextPath();
-        // 路径处理
-        url = url.replaceAll(contextPath, "").replaceAll("/+", "/");
-        // 遍历获取 handler
-        for (Handler handler : this.handlerMapping) {
-            Matcher matcher = handler.pattern.matcher(url);
-            if(!matcher.matches()){continue;}
-            return handler;
+        Class<?>[] parameterTypes = method.getParameterTypes();
+        Object[] parameterValues = new Object[parameterTypes.length];
+
+        for (int i = 0; i < parameterTypes.length; i++) {
+            Class paramterType = parameterTypes[i];
+            if(paramterType == HttpServletRequest.class){
+                parameterValues[i] = req;
+            }else if(paramterType == HttpServletResponse.class){
+                parameterValues[i] = resp;
+            } else if(paramterType == String.class){
+                // 获取运行注解对象
+                Annotation[][] pa = method.getParameterAnnotations();
+                for (int j = 0; j < pa.length; j++) {
+                    for (Annotation a : pa[i]) {
+                        if(a instanceof GPRequestParam){
+                            String paramName = ((GPRequestParam) a).value();
+                            if(!"".equals(paramName.trim())){
+                                String value = Arrays.toString(parameterMap.get(paramName)).replaceAll("\\[|\\]","")
+                                        .replaceAll("\\s+",",");
+                                parameterValues[i] = value;
+                            }
+                        }
+                    }
+                }
+            }
         }
-        return null;
+        //暂时硬编码
+        String beanName = toLowerFirstCase(method.getDeclaringClass().getSimpleName());
+        //赋值实参列表
+        method.invoke(ioc.get(beanName),parameterValues);
     }
 
     @Override
@@ -151,9 +130,8 @@ public class OMDispatcherServlet extends HttpServlet {
             for (Method method : clazz.getMethods()) {
                 if(!method.isAnnotationPresent(GPRequestMapping.class)){continue;}
                 String url = ("/" + baseUrl + "/" + method.getAnnotation(GPRequestMapping.class).value()).replaceAll("/+", "/");
-                Pattern pattern = Pattern.compile(url);
-                handlerMapping.add(new Handler(pattern, method, entry.getValue()));
-                System.out.println("Mapped : " + pattern + "," + method);
+                handlerMapping.put(url, method);
+                System.out.println("Mapped : " + url + "," + method);
             }
         }
     }
@@ -244,84 +222,6 @@ public class OMDispatcherServlet extends HttpServlet {
                     e.printStackTrace();
                 }
             }
-        }
-    }
-
-    /**handler 映射关系 */
-    public class Handler{
-        // 映射路径
-        public Pattern pattern;
-        // 方法
-        private Method method;
-        // 对象
-        private Object controller;
-        // 形参列表类型
-        private Class<?>[] paramTypes;
-        //参数的名字作为key,参数的顺序，位置作为值
-        private Map<String, Integer> paramIndexMapping = new HashMap<String, Integer>();
-
-        public Handler(Pattern pattern, Method method, Object controller) {
-            this.pattern = pattern;
-            this.method = method;
-            this.controller = controller;
-            this.paramTypes = method.getParameterTypes();
-            paramIndexMapping = new HashMap<String, Integer>();
-            pubParamIndexMapping(method);
-        }
-
-        private void pubParamIndexMapping(Method method) {
-            Annotation[][] pa = method.getParameterAnnotations();
-            for (int i = 0; i < pa.length; i++) {
-                for (Annotation a : pa[i]) {
-                    if(a instanceof GPRequestParam){
-                        String param = ((GPRequestParam) a).value();
-                        if(!"".equals(param.trim())){
-                            paramIndexMapping.put(param, i);
-                        }
-                    }
-                }
-            }
-
-            // 提取 request / response
-            Class<?>[] parameterTypes = method.getParameterTypes();
-            for (int i = 0; i < parameterTypes.length; i++) {
-                Class<?> type = parameterTypes[i];
-                if(type == HttpServletRequest.class || type == HttpServletResponse.class){
-                    paramIndexMapping.put(type.getName(), i);
-                }
-            }
-        }
-
-        public Class<?>[] getParamTypes() {
-            return paramTypes;
-        }
-
-        public void setParamTypes(Class<?>[] paramTypes) {
-            this.paramTypes = paramTypes;
-        }
-
-        public Pattern getPattern() {
-            return pattern;
-        }
-
-        public void setPattern(Pattern pattern) {
-            this.pattern = pattern;
-        }
-
-        public Method getMethod() {
-            return method;
-        }
-
-        public void setMethod(Method method) {
-            this.method = method;
-        }
-
-        public Object getController() {
-            return controller;
-        }
-
-        public void setController(Object controller) {
-            controller = controller;
         }
     }
 }
