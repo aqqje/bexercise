@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/framework/ISpring/ISpring.iml" filepath="$PROJECT_DIR$/framework/ISpring/ISpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliAI/aliAI.iml" filepath="$PROJECT_DIR$/aliAI/aliAI.iml" />
       <module fileurl="file://$PROJECT_DIR$/bexercise.iml" filepath="$PROJECT_DIR$/bexercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/gper-pattern/gper-pattern.iml" filepath="$PROJECT_DIR$/gper-pattern/gper-pattern.iml" />

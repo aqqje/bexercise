@@ -6,12 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:vip spring-1 add ==&gt; spring-1">
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv2/GPDispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv2/OMDispatcherServlet.java" afterDir="false" />
+    <list default="true" id="18d50fb3-c88b-4fd8-98d6-1572d2923597" name="Default" comment="gper:vip spring-1 add ==&gt; spring-1 v3">
+      <change afterPath="$PROJECT_DIR$/aliAI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/SpeechLongSynthesizerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/SpeechSynthesizerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv3/GPDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv3/GPDispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv3/OMDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv3/OMDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,18 +63,15 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aliAI/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="vip.designpattern.decorator.homework" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="vip.designpattern.decorator.homework" />
     </key>
@@ -86,24 +85,27 @@
       <recent name="vip.designpattern.proxy.staticproxy" />
       <recent name="vip.designpattern.builder.sql" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\src\main\java\com\gper\mvcframework\v1" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\flyweight" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\proxy\dynamicproxy\jdkproxy2" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\proxy" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gper.mvcframework.v1.mvcframework.servlet.omv3" />
-      <recent name="com.gper.mvcframework.v1.mvcframework.servlet.gpv3" />
-      <recent name="vip.designpattern.proxy.dynamicproxy.cglibproxy2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\vip" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\test\designpattern\factorymode" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\designpattern" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\factorymode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\aliAI\src\main\java" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\src\main\java\com\gper\mvcframework\v1" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\flyweight" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper\src\main\java\vip\designpattern\proxy\dynamicproxy\jdkproxy2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gper.mvcframework.v1.mvcframework.servlet.omv3" />
+      <recent name="com.gper.mvcframework.v1.mvcframework.servlet.gpv3" />
+      <recent name="vip.designpattern.proxy.dynamicproxy.cglibproxy2" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="vip.designpattern.decorator.homework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,7 +120,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpeechSynthesizerDemo">
+    <configuration name="SpeechLongSynthesizerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nls.tts.SpeechLongSynthesizerDemo" />
+      <module name="aliAI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nls.tts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpeechSynthesizerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nls.tts.SpeechSynthesizerDemo" />
+      <module name="aliAI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nls.tts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -420,6 +450,12 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpeechSynthesizerDemo" />
+        <item itemvalue="Application.SpeechLongSynthesizerDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -454,7 +490,8 @@
       <workItem from="1584842065658" duration="2809000" />
       <workItem from="1585232535362" duration="29000" />
       <workItem from="1586080266088" duration="9523000" />
-      <workItem from="1586672253330" duration="9098000" />
+      <workItem from="1586672253330" duration="9806000" />
+      <workItem from="1588431664673" duration="4615000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555919892343</created>
@@ -582,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586089224800</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="gper:vip spring-1 add ==&gt; spring-1 v3">
+      <created>1586684961042</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1586684961042</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +663,8 @@
     <MESSAGE value="gper:vip proxy add ==&gt; proxy" />
     <MESSAGE value="gper:vip memento add ==&gt; memento" />
     <MESSAGE value="gper:vip spring-1 add ==&gt; spring-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper:vip spring-1 add ==&gt; spring-1" />
+    <MESSAGE value="gper:vip spring-1 add ==&gt; spring-1 v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper:vip spring-1 add ==&gt; spring-1 v3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

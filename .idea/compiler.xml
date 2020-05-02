@@ -6,20 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sql" />
+        <module name="nowcoder" />
+        <module name="framework" />
         <module name="ispringmvc" />
         <module name="web-front-end" />
         <module name="gper-spring" />
         <module name="ISpring" />
-        <module name="gper-pattern" />
-        <module name="framework" />
+        <module name="sql" />
+        <module name="aliAI" />
         <module name="javaweb" />
         <module name="interview" />
         <module name="javase" />
-        <module name="nowcoder" />
+        <module name="gper-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aliAI" target="8" />
       <module name="bexercise" target="1.5" />
       <module name="framework" target="1.5" />
       <module name="gper-pattern" target="8" />

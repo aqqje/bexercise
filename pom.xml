@@ -18,6 +18,7 @@
         <module>sql</module>
         <module>web-front-end</module>
         <module>gper-spring</module>
+        <module>aliAI</module>
 
     </modules>
     <dependencies>
