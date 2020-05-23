@@ -18,8 +18,8 @@ import java.util.List;
 public class SpeechSynthesizer {
     private static final Logger logger = LoggerFactory.getLogger(SpeechSynthesizer.class);
     private static final String APP_KEY = "pO3ZOy1aMlReV7dH";
-    private static final String ID = "LTAI4G7eFQAdNQVFTWVbXhtr";
-    private static final String SECRET = "uwzoyeZTHRc5hjlvFAdnEjs99ZNkUF";
+    private static final String ID = "LTAI4GDi7mb52tT77MqW2B9V";
+    private static final String SECRET = "OkmREGU6Pmj7UR4DvvuH3SLq6yy3zR";
     private static final String URL = "wss://nls-gateway.cn-shanghai.aliyuncs.com/ws/v1";
     private static NlsClient client;
     private static long startTime;
@@ -57,17 +57,17 @@ public class SpeechSynthesizer {
             //设置返回音频的采样率
             synthesizer.setSampleRate(SampleRateEnum.SAMPLE_RATE_16K);
             //发音人  男-Sicheng 男-Aida女-Siqi 女-Aiqi 女-Siyue 66 女-Aiyue 女-Yina 女-AiXia
-            synthesizer.setVoice("Siyue");
+            synthesizer.setVoice("Sicheng");
             // 设置声音大小
-            synthesizer.setVolume(70);
+            synthesizer.setVolume(200);
             //语调，范围是-500~500，可选，默认是0
             synthesizer.setPitchRate(0);
             //语速，范围是-500~500，默认是0
-            synthesizer.setSpeechRate(-150);
+            synthesizer.setSpeechRate(-100);
             //设置用于语音合成的文本
             synthesizer.setText(text);
             // 是否开启字幕功能(返回对应文本的相应时间戳)，默认不开启，需要注意并非所有发音人都支持该参数
-            synthesizer.addCustomedParam("enable_subtitle", false);
+            synthesizer.addCustomedParam("enable_subtitle", true);
             //此方法将以上参数设置序列化为json发送给服务端,并等待服务端确认
             long start = System.currentTimeMillis();
             synthesizer.start();
@@ -174,11 +174,6 @@ public class SpeechSynthesizer {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        /*String text = "百草堂与三味书屋鲁迅我家的后面有一个很大的园，相传叫作百草园。现在是早已并屋子一起卖给朱文公的子孙了，连那最末次的相见也已经隔了七八年，其中似乎确凿只有一些野草；但那时却是我的乐园。不必说碧绿的菜畦，光滑的石井栏，高大的皂荚树，紫红的桑葚；也不必说鸣蝉在树叶里长吟，" +
-                "肥胖的黄蜂伏在菜花上，轻捷的叫天子(云雀)忽然从草间直窜向云霄里去了。单是周围的短短的泥墙根一带，就有无限趣味。油蛉在这里低唱，蟋蟀们在这里弹琴。翻开断砖来，有时会遇见蜈蚣；还有斑蝥，倘若用手指按住它的脊梁，便会啪的一声，" +
-                "从后窍喷出一阵烟雾。何首乌藤和木莲藤缠络着，木莲有莲房一般的果实，何首乌有臃肿的根。有人说，何首乌根是有像人形的，吃了便可以成仙，我于是常常拔它起来，牵连不断地拔起来，" +
-                "也曾因此弄坏了泥墙，却从来没有见过有一块根像人样! 如果不怕刺，还可以摘到覆盆子，像小珊瑚珠攒成的小球，又酸又甜，色味都比桑葚要好得远";
-*/
-        generateFileTTS("C:\\Users\\Administrator\\Desktop\\text.txt","yjgm1" , "C:\\Users\\Administrator\\Desktop");
+        generateFileTTS("C:\\AqqJe\\自媒体\\庆余年第二季\\剪辑\\第五集\\CHS_2-5_文稿下.txt","庆余年第五集下音频" , "C:\\AqqJe\\自媒体\\庆余年第二季\\剪辑\\第五集");
     }
 }

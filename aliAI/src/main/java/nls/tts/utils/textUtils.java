@@ -28,7 +28,7 @@ public class textUtils {
     }
     /** 文本文件处理 */
     public static String textFileRead(String fileRul){
-        File file = new File("C:\\Users\\Administrator\\Desktop\\test.txt");
+        File file = new File(fileRul);
         FileInputStream fis = null;
         try {
             fis = new FileInputStream(file);
