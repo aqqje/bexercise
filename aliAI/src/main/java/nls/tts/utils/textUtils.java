@@ -12,7 +12,7 @@ public class textUtils {
     /** 文本分割 */
     public static List<String> breakDown(String text, int step){
         String subStr = "";
-        List<String> texts = new ArrayList<>();
+        List<String> texts = new ArrayList<String>();
         int index = 0;
         while(index  != -1){
             if(index + step >= text.length()){
