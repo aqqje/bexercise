@@ -11,7 +11,7 @@ public class SubtitleUtils {
         StringBuffer sb = new StringBuffer();
 
         /**读取文件 */
-        File strFile = new File("C:\\Users\\Administrator\\Desktop\\CHS_庆余年2-7.srt");
+        File strFile = new File("C:\\AqqJe\\自媒体\\庆余年第二季\\剪辑\\第九集\\CHS_庆余年2-9.srt");
         FileInputStream fis = new FileInputStream(strFile);
         InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
         BufferedReader br = new BufferedReader(isr);
@@ -31,7 +31,7 @@ public class SubtitleUtils {
         str = str.replaceAll("，", "，\n");
 
         /** 写出*/
-        File file = new File("C:\\Users\\Administrator\\Desktop\\CHS_2-7_文稿.txt");
+        File file = new File("C:\\Users\\Administrator\\Desktop\\CHS_2-9_文稿.txt");
         FileOutputStream fos = new FileOutputStream(file, true);
         byte[] fosword = str.getBytes();
         fos.write(fosword);
