@@ -174,6 +174,6 @@ public class SpeechSynthesizer {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        generateFileTTS("C:\\AqqJe\\自媒体\\庆余年第二季\\剪辑\\第五集\\CHS_2-5_文稿下.txt","庆余年第五集下音频" , "C:\\AqqJe\\自媒体\\庆余年第二季\\剪辑\\第五集");
+        generateFileTTS("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\15\\庆2-15下.txt","庆余年第15集下音频" , "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\15");
     }
 }
