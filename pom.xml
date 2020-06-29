@@ -19,6 +19,7 @@
         <module>web-front-end</module>
         <module>gper-spring</module>
         <module>aliAI</module>
+        <module>gper-springboot</module>
     </modules>
     <dependencies>
         <dependency>
