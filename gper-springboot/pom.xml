@@ -13,7 +13,10 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>springmvc-dome</module>
+        <module>springmvc-demo</module>
+        <module>data-base-driver</module>
+        <module>mysql-dirver</module>
+        <module>driver-app-demo</module>
     </modules>
 
 
