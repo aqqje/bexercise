@@ -17,6 +17,7 @@
         <module>data-base-driver</module>
         <module>mysql-dirver</module>
         <module>driver-app-demo</module>
+        <module>aqqje-spring-boot-starter-demo</module>
     </modules>
 
 
