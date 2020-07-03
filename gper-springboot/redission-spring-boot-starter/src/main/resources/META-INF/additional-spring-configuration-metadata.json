@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "aq.redission.host",
+      "type": "java.lang.String",
+      "description": "redis服务器地址",
+      "defaultValue": "localhost"
+    }
+  ]
+}

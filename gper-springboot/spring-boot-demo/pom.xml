@@ -29,6 +29,11 @@
             <version>1.0</version>
         </dependency>
         <dependency>
+            <groupId>com.aqqje.starter</groupId>
+            <artifactId>redission-spring-boot-starter</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
