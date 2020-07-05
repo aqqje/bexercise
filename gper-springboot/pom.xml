@@ -19,6 +19,7 @@
         <module>driver-app-demo</module>
         <module>aqqje-spring-boot-starter-demo</module>
         <module>redission-spring-boot-starter</module>
+        <module>spring-boot-demo</module>
     </modules>
 
 
