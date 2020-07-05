@@ -3,6 +3,7 @@ package com.aqqje.springclouduserservice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,11 +22,12 @@ public class UserController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Autowired
-    private LoadBalancerClient loadBalancerClient;
+    /*@Autowired
+    private LoadBalancerClient loadBalancerClient;*/
 
 
     @Bean
+    @LoadBalanced
     public RestTemplate restTemplate(RestTemplateBuilder restTemplateBuilder){
         return restTemplateBuilder.build();
     }
@@ -47,13 +49,23 @@ public class UserController {
      * @param id
      * @return
      */
-    @GetMapping("/user/{id}")
+    /*@GetMapping("/user/{id}")
     public String findById(@PathVariable("id") int id)
     {
         ServiceInstance serviceInstance = loadBalancerClient.choose("spring-cloud-order-service");
         String url = String.format("http://%s:%s", serviceInstance.getHost(), serviceInstance.getPort() + "/orders");
         return restTemplate.getForObject(url, String.class);
-    }
+    }*/
 
+    /**
+     * 基于 @LoadBalanced 的实现
+     * @param id
+     * @return
+     */
+    @GetMapping("/user/{id}")
+    public String findById(@PathVariable("id") int id)
+    {
+        return restTemplate.getForObject("http://spring-cloud-order-service/orders", String.class);
+    }
 
 }
