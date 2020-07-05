@@ -6,34 +6,44 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaweb" />
-        <module name="sql" />
         <module name="ispringmvc" />
-        <module name="web-front-end" />
         <module name="gper-spring" />
+        <module name="data-base-driver" />
         <module name="ISpring" />
-        <module name="javase" />
-        <module name="framework" />
         <module name="nowcoder" />
         <module name="interview" />
-        <module name="aliAI" />
+        <module name="javaweb" />
+        <module name="javase" />
+        <module name="sql" />
+        <module name="web-front-end" />
+        <module name="springmvc-dome" />
+        <module name="framework" />
         <module name="gper-pattern" />
+        <module name="spring-boot-demo" />
+        <module name="aliAI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="aliAI" target="8" />
-      <module name="bexercise" target="1.5" />
-      <module name="framework" target="1.5" />
-      <module name="gper-pattern" target="8" />
-      <module name="gper-spring" target="1.5" />
-      <module name="interview" target="1.5" />
-      <module name="ISpring" target="1.8" />
-      <module name="ispringmvc" target="1.8" />
-      <module name="javase" target="1.5" />
-      <module name="javaweb" target="1.5" />
-      <module name="nowcoder" target="1.5" />
-      <module name="sql" target="1.5" />
-      <module name="web-front-end" target="1.5" />
+      <module name="aqqje-spring-boot-starter-demo" target="1.7" />
+      <module name="driver-app-demo" target="1.7" />
+      <module name="gper-spring-boot" target="1.5" />
+      <module name="mysql-dirver" target="1.7" />
+      <module name="redission-spring-boot-starter" target="1.7" />
+      <module name="spring-cloud-order-server-1" target="1.8" />
+      <module name="spring-cloud-order-service-1" target="1.8" />
+      <module name="spring-cloud-order-service-2" target="1.8" />
+      <module name="spring-cloud-service-1" target="1.5" />
+      <module name="springmvc-demo" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gper-spring-boot" options="-parameters" />
+      <module name="spring-boot-demo" options="-parameters" />
+      <module name="spring-cloud-order-server-1" options="-parameters" />
+      <module name="spring-cloud-order-service-1" options="-parameters" />
+      <module name="spring-cloud-order-service-2" options="-parameters" />
+      <module name="spring-cloud-service-1" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -58,6 +58,6 @@ public class DocumentCorrectionUtils {
     }
 
     public static void main(String[] args) throws Exception {
-        CorrectionbyManuscriptText("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\12\\CHS_庆2-12上.srt", "D:\\自媒体\\视频\\国产：庆余年第二季\\字幕校正\\字幕校正.txt");
+        CorrectionbyManuscriptText("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\26\\CHS_庆2-26下.srt", "D:\\自媒体\\视频\\国产：庆余年第二季\\字幕校正\\字幕校正.txt");
     }
 }

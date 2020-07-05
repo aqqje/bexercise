@@ -45,6 +45,6 @@ public class SubtitleUtils {
     }
 
     public static void main(String[] args) throws Exception {
-        srtToTxt("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\11\\CHS_庆2-11上.srt");
+        srtToTxt("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\26\\CHS_庆余年2-26.srt");
     }
 }
