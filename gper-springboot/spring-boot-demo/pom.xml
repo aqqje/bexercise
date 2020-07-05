@@ -20,6 +20,15 @@
 
     <dependencies>
         <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -28,11 +37,11 @@
             <artifactId>aqqje-spring-boot-starter-demo</artifactId>
             <version>1.0</version>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>com.aqqje.starter</groupId>
             <artifactId>redission-spring-boot-starter</artifactId>
             <version>1.0</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

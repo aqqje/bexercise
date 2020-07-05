@@ -18,6 +18,7 @@ public class SpringBootDemoApplication {
         System.out.println(run.getBean(MybatisConfiguration.class));
         System.out.println(run.getBean(RedisConfiguration.class));
         System.out.println(run.getBean(AqqjeService.class));
+        System.out.println(run.getBean(CustomerHealthIndicator.class));
     }
 
 }
