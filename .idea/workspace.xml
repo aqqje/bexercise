@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="springmvc-dome:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3cd8443-0e76-4d38-ab0f-3fff1e1b4469" name="Default Changelist" comment="gper-springboot=&gt; add spring-boot-demo">
+    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/qynutils/DocumentCorrectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/qynutils/DocumentCorrectionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/subtitle/SubtitleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/subtitle/SubtitleUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bexercise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gper-springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/src/main/java/com/aqqje/springclouduserservice/SpringCloudUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/src/main/java/com/aqqje/springclouduserservice/SpringCloudUserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +22,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,26 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="C:\AqqJe\Env\Maven\Maven-repo" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../Env/Maven/Apache-maven-3.6.2" />
-        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
-  <component name="ProjectId" id="1dZqePIyol4zwGvi5VrJGd4HXlu" />
+  <component name="ProjectId" id="1eGBJLKoriYFfsDDnSnI4LekIss" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -64,23 +37,15 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper-spring-boot/spring-cloud-order-service-2/src/main/java/com/aqqje/springcloudorderservice2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper-springboot/spring-cloud-user-serivce" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-springboot\aqqje-spring-boot-starter-demo\src\main\resources\META-INF" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-springboot\springmvc-demo\src\main\webapp" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-springboot\springmvc-dome\src\main\webapp\views" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.aqqje.demo.dm05" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring-boot\spring-cloud-order-service-2\src\main\java\com\aqqje\springcloudorderservice2" />
+      <recent name="com.aqqje.springcloudorderserivce1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,13 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in spring-cloud-order-service-1 (1)">
-    <configuration name="JMXmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aqqje.springbootdemo.JMXmain" />
-      <module name="spring-boot-demo" />
+  <component name="RunManager" selected="Application.SpeechSynthesizer">
+    <configuration name="DocumentCorrectionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qynutils.DocumentCorrectionUtils" />
+      <module name="aliAI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aqqje.springbootdemo.*" />
+          <option name="PATTERN" value="qynutils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,210 +74,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in spring-cloud-order-service-1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-order-service-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in spring-cloud-order-service-1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-order-service-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="gper-spring-boot" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="gper-spring-boot" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-demo" />
+    <configuration name="SpeechSynthesizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nls.tts.realse.SpeechSynthesizer" />
+      <module name="aliAI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aqqje.springbootdemo.*" />
+          <option name="PATTERN" value="nls.tts.realse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springbootdemo.SpringBootDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubtitleUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subtitle.SubtitleUtils" />
+      <module name="aliAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="subtitle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gper-spring-boot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springbootdemo.SpringBootDemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aqqje.springbootdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springbootdemo.SpringBootDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCloudOrderServer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-order-server-1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.example.springcloudorderserver1.SpringCloudOrderServer1Application" />
+    <configuration name="SpringCloudOrderSerivce1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-order-serivce-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springcloudorderserivce1.SpringCloudOrderSerivce1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCloudOrderService1Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-order-service-1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springcloudorderservice1.SpringCloudOrderService1Application" />
+    <configuration name="SpringCloudOrderSerivce2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-order-serivce-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springcloudorderserivce2.SpringCloudOrderSerivce2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCloudOrderService1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-order-service-1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.example.springcloudorderservice1.SpringCloudOrderService1Application" />
+    <configuration name="SpringCloudUserSerivceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-user-serivce" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springclouduserserivce.SpringCloudUserSerivceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCloudOrderService2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-order-service-2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springcloudorderservice2.SpringCloudOrderService2Application" />
+    <configuration name="SpringCloudUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springclouduserservice.SpringCloudUserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 8.5.53-xms" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.53-xms" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="springmvc-dome:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_53-xms_bexercise" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="57571" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="springmvc-dome:war exploded" />
-        </option>
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.53-xms" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
@@ -378,26 +198,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.JMXmain" />
-      <item itemvalue="JUnit.Whole project" />
-      <item itemvalue="Spring Boot.SpringBootDemoApplication" />
-      <item itemvalue="Spring Boot.SpringCloudOrderService1Application" />
-      <item itemvalue="Spring Boot.SpringCloudOrderServer1Application" />
-      <item itemvalue="Spring Boot.SpringCloudOrderService1Application (1)" />
-      <item itemvalue="Spring Boot.SpringCloudOrderService2Application" />
-      <item itemvalue="Spring Boot.SpringBootDemoApplication (1)" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.53-xms" />
-      <item itemvalue="JUnit.All in spring-cloud-order-service-1" />
-      <item itemvalue="JUnit.All in spring-cloud-order-service-1 (1)" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in spring-cloud-order-service-1 (1)" />
-        <item itemvalue="JUnit.All in spring-cloud-order-service-1" />
-        <item itemvalue="JUnit.Whole project" />
-        <item itemvalue="Spring Boot.SpringBootDemoApplication (1)" />
-        <item itemvalue="Application.JMXmain" />
+        <item itemvalue="Application.SpeechSynthesizer" />
+        <item itemvalue="Application.SubtitleUtils" />
+        <item itemvalue="Application.DocumentCorrectionUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -406,90 +211,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d3cd8443-0e76-4d38-ab0f-3fff1e1b4469" name="Default Changelist" comment="" />
-      <created>1592643057314</created>
+      <changelist id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="" />
+      <created>1593937976120</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592643057314</updated>
-      <workItem from="1592643059091" duration="601000" />
-      <workItem from="1593146892287" duration="7632000" />
-      <workItem from="1593163665634" duration="949000" />
-      <workItem from="1593247927010" duration="5707000" />
-      <workItem from="1593417479933" duration="16596000" />
-      <workItem from="1593503272461" duration="3988000" />
-      <workItem from="1593594862303" duration="6263000" />
-      <workItem from="1593770734741" duration="7749000" />
-      <workItem from="1593782678237" duration="627000" />
-      <workItem from="1593845952136" duration="2212000" />
-      <workItem from="1593919372839" duration="2190000" />
-      <workItem from="1593931827358" duration="249000" />
-      <workItem from="1593932116520" duration="1979000" />
-      <workItem from="1593934482140" duration="202000" />
+      <updated>1593937976120</updated>
+      <workItem from="1593937980099" duration="2028000" />
+      <workItem from="1593940049670" duration="4180000" />
+      <workItem from="1594041104185" duration="4624000" />
+      <workItem from="1594092702099" duration="485000" />
+      <workItem from="1594095950665" duration="9601000" />
+      <workItem from="1594134433344" duration="18000" />
+      <workItem from="1594135480309" duration="2200000" />
+      <workItem from="1594274438320" duration="39000" />
+      <workItem from="1594299679342" duration="1825000" />
+      <workItem from="1594305835097" duration="216000" />
+      <workItem from="1594306787043" duration="86000" />
+      <workItem from="1594307006341" duration="121000" />
     </task>
-    <task id="LOCAL-00001" summary="add AQOne">
-      <created>1593417716472</created>
+    <task id="LOCAL-00001" summary="gper-springboot -&gt; add spring-cloud-ribbon-test">
+      <created>1593941915459</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1593417716472</updated>
+      <updated>1593941915459</updated>
     </task>
-    <task id="LOCAL-00002" summary="gper-springboot=&gt; add springmvc-demo">
-      <created>1593420667114</created>
+    <task id="LOCAL-00002" summary="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance">
+      <created>1593950016094</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1593420667114</updated>
+      <updated>1593950016094</updated>
     </task>
-    <task id="LOCAL-00003" summary="gper-springboot=&gt; add spring-boot-demo">
-      <created>1593421693267</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1593421693267</updated>
-    </task>
-    <task id="LOCAL-00004" summary="gper-springboot=&gt; update springmvc-demo">
-      <created>1593428162437</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1593428162437</updated>
-    </task>
-    <task id="LOCAL-00005" summary="gper-springboot=&gt; update spring-boot-demo">
-      <created>1593437569858</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1593437569858</updated>
-    </task>
-    <task id="LOCAL-00006" summary="gper-springboot=&gt; add jdbc driver spi demo">
-      <created>1593439419839</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1593439419839</updated>
-    </task>
-    <task id="LOCAL-00007" summary="gper-springboot=&gt; add aqqje-spring-boot-starter-demo">
-      <created>1593595313555</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1593595313555</updated>
-    </task>
-    <task id="LOCAL-00008" summary="gper-springboot=&gt; add redisson-spring-boot">
-      <created>1593770976822</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1593770976822</updated>
-    </task>
-    <task id="LOCAL-00009" summary="gper-springboot=&gt; update spring-boot-demo =&gt; add JMX">
-      <created>1593920765430</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1593920765430</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,15 +263,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add AQOne" />
-    <MESSAGE value="gper-springboot=&gt; add springmvc-demo" />
-    <MESSAGE value="gper-springboot=&gt; add spring-boot-demo" />
-    <MESSAGE value="gper-springboot=&gt; update springmvc-demo" />
-    <MESSAGE value="gper-springboot=&gt; update spring-boot-demo" />
-    <MESSAGE value="gper-springboot=&gt; add jdbc driver spi demo" />
-    <MESSAGE value="gper-springboot=&gt; add aqqje-spring-boot-starter-demo" />
-    <MESSAGE value="gper-springboot=&gt; add redisson-spring-boot" />
-    <MESSAGE value="gper-springboot=&gt; update spring-boot-demo =&gt; add JMX" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper-springboot=&gt; update spring-boot-demo =&gt; add JMX" />
+    <MESSAGE value="gper-springboot -&gt; add spring-cloud-ribbon-test" />
+    <MESSAGE value="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance" />
   </component>
 </project>
