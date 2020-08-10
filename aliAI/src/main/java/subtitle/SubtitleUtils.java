@@ -45,6 +45,18 @@ public class SubtitleUtils {
     }
 
     public static void main(String[] args) throws Exception {
-        srtToTxt("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\26\\CHS_庆余年2-26.srt");
+
+        String resourcePath = "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\%s\\CHS_庆余年2-%s_校正.srt";
+        for (int i = 33; i <=38 ; i++) {
+            srtToTxt(String.format(resourcePath, String.valueOf(i), String.valueOf(i)));
+        }
+
+        /*
+        // 上下
+        String resourcePath = "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\%s\\CHS_庆余年2-%s_校正.srt";
+        for (int i = 27; i <=28 ; i++) {
+            srtToTxt(String.format(resourcePath, String.valueOf(i), String.valueOf(i)));
+        }*/
+
     }
 }

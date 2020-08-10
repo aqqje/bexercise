@@ -58,6 +58,13 @@ public class DocumentCorrectionUtils {
     }
 
     public static void main(String[] args) throws Exception {
-        CorrectionbyManuscriptText("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\26\\CHS_庆2-26下.srt", "D:\\自媒体\\视频\\国产：庆余年第二季\\字幕校正\\字幕校正.txt");
+        // CorrectionbyManuscriptText("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\27\\CHS_庆余年2-27.srt", "D:\\自媒体\\视频\\国产：庆余年第二季\\字幕校正\\字幕校正.txt");
+        String correctionDocPath = "D:\\自媒体\\视频\\国产：庆余年第二季\\字幕校正\\字幕校正.txt";
+        String docResourcePath = "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\%s\\CHS_庆余年2-%s.srt";
+        //String docResourcePath = "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\%s\\CHS_庆余年2-%s_校正_文稿.txt";
+        for (int i = 33; i <= 38 ; i++) {
+            System.out.print(i + ":");
+            CorrectionbyManuscriptText(String.format(docResourcePath, String.valueOf(i), String.valueOf(i)), correctionDocPath);
+        }
     }
 }

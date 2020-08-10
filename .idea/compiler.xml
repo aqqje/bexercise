@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ispringmvc" />
         <module name="redission-spring-boot-starter" />
+        <module name="framework" />
         <module name="web-front-end" />
         <module name="gper-spring" />
         <module name="data-base-driver" />
-        <module name="aqqje-spring-boot-starter-demo" />
         <module name="ISpring" />
         <module name="nowcoder" />
-        <module name="interview" />
+        <module name="aqqje-spring-boot-starter-demo" />
         <module name="spring-cloud-order-serivce-1" />
         <module name="javaweb" />
         <module name="sql" />
@@ -22,7 +22,7 @@
         <module name="javase" />
         <module name="mysql-dirver" />
         <module name="spring-cloud-user-service" />
-        <module name="framework" />
+        <module name="interview" />
         <module name="springmvc-demo" />
         <module name="gper-pattern" />
         <module name="spring-boot-demo" />

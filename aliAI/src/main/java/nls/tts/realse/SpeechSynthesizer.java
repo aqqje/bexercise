@@ -16,10 +16,11 @@ import java.util.List;
 
 /** 文本语言合成 */
 public class SpeechSynthesizer {
+
     private static final Logger logger = LoggerFactory.getLogger(SpeechSynthesizer.class);
-    private static final String APP_KEY = "pO3ZOy1aMlReV7dH";
-    private static final String ID = "LTAI4GDi7mb52tT77MqW2B9V";
-    private static final String SECRET = "OkmREGU6Pmj7UR4DvvuH3SLq6yy3zR";
+    private static final String APP_KEY = "";
+    private static final String ID = "";
+    private static final String SECRET = "";
     private static final String URL = "wss://nls-gateway.cn-shanghai.aliyuncs.com/ws/v1";
     private static NlsClient client;
     private static long startTime;
@@ -27,7 +28,7 @@ public class SpeechSynthesizer {
 
     public static NlsClient createClient() {
         // 判断是否已经过期，如果过期则再创建
-        if((expireTime * 1000) > System.currentTimeMillis()){return client; }
+        // if((expireTime * 1000) > System.currentTimeMillis()){return client; }
 
         AccessToken accessToken = new AccessToken(ID, SECRET);
         try {
@@ -46,7 +47,7 @@ public class SpeechSynthesizer {
      * @param fileName 音频文件名
      * @param directory 音频生成目录
      */
-    public static void process(String text, String fileName, String directory) {
+    public static void process(String text, String fileName, String directory, String sound) {
         com.alibaba.nls.client.protocol.tts.SpeechSynthesizer synthesizer = null;
         try {
             //创建实例,建立连接
@@ -57,7 +58,8 @@ public class SpeechSynthesizer {
             //设置返回音频的采样率
             synthesizer.setSampleRate(SampleRateEnum.SAMPLE_RATE_16K);
             //发音人  男-Sicheng 男-Aida女-Siqi 女-Aiqi 女-Siyue 66 女-Aiyue 女-Yina 女-AiXia
-            synthesizer.setVoice("Sicheng");
+
+            synthesizer.setVoice(sound);
             // 设置声音大小
             synthesizer.setVolume(200);
             //语调，范围是-500~500，可选，默认是0
@@ -152,28 +154,51 @@ public class SpeechSynthesizer {
         client.shutdown();
     }
 
-    public static void generateTTS(String text, String fileName, String directory){
+    public static void generateTTS(String text, String fileName, String directory, String sound){
         List<String> texts = textUtils.breakDown(text, 300);
         for (int i = 0; i < texts.size(); i++) {
             System.out.println("正在处理第^_^"+(i+1)+"^_^节文本");
             client = createClient();
-            process(texts.get(i),fileName, directory);
+            process(texts.get(i),fileName, directory, sound);
         }
         shutdown();
     }
 
-    public static void generateFileTTS(String fileUrl, String fileName, String directory){
+    public static void generateFileTTS(String fileUrl, String sound){
+        String fileName = fileUrl.substring(fileUrl.lastIndexOf("\\") + 1, fileUrl.lastIndexOf(".")) + "音频";
+        String directory = fileUrl.substring(0, fileUrl.lastIndexOf("\\"));
         String text = textUtils.textFileRead(fileUrl);
+        // System.out.println(text);
         List<String> texts = textUtils.breakDown(text, 300);
         for (int i = 0; i < texts.size(); i++) {
             System.out.println("正在处理第^_^"+(i+1)+"^_^节文本");
             client = createClient();
-            process(texts.get(i),fileName, directory);
+            process(texts.get(i),fileName, directory, sound);
         }
         shutdown();
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        generateFileTTS("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\26\\庆2-26下.txt","庆2-26下音频" , "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\26");
+        // 27下， 30下，
+        //  男-Sicheng 女-Siyue
+        //generateFileTTS("D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\26\\庆2-26下.txt","庆2-26下音频" , "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\26");
+        String resourcePath = "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\30\\30下.txt";
+        generateFileTTS(resourcePath, "Sicheng");
+        // String resourcePath = "D:\\自媒体\\视频\\国产：庆余年第二季\\剪辑\\%s\\%s%s.txt";
+        /*for (int i = 31; i <= 38 ; i++) {
+            generateFileTTS(String.format(resourcePath, String.valueOf(i), String.valueOf(i), "上"), "Sicheng");
+            generateFileTTS(String.format(resourcePath, String.valueOf(i), String.valueOf(i), "下"), "Sicheng");
+        }*/
+
+        // String resourcePath2 = "D:\\自媒体\\视频\\韩剧：永恒的君主\\剧情文稿\\%s_重写.txt";
+        //String resourcePath3 = "D:\\自媒体\\视频\\电影：老大不小2020\\新建文本文档1.txt";
+//        for (int i = 1; i <= 1 ; i++) {
+            // 女-AiXia
+//            generateFileTTS(String.format(resourcePath3, String.valueOf(i)), "AiXia");
+        //generateFileTTS(resourcePath3, "AiXia");
+//        }
     }
+
+
 }
+

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance">
+    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="nowcoder: add =&gt; ReturnCircuit&amp;&amp;StationConstruction">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/qynutils/DocumentCorrectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/qynutils/DocumentCorrectionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/subtitle/SubtitleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/subtitle/SubtitleUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/src/main/java/com/aqqje/springclouduserservice/SpringCloudUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/src/main/java/com/aqqje/springclouduserservice/SpringCloudUserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gper-springboot/spring-cloud-user-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
