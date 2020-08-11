@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="nowcoder: add =&gt; ReturnCircuit&amp;&amp;StationConstruction">
+    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gper-spring/spring-annotation/src/main/java/com/aqqje/springannotation/configures/imports/MyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper-spring/spring-annotation/src/main/java/com/aqqje/springannotation/configures/imports/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/qynutils/DocumentCorrectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/qynutils/DocumentCorrectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/subtitle/SubtitleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/subtitle/SubtitleUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +34,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper-springboot/spring-cloud-user-serivce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper-spring/spring-annotation/src/main/java/com/aqqje/springannotation/injections/primary" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -39,7 +42,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aqqje.springannotation.configures.imports" />
       <recent name="com.aqqje.springcloudorderserivce1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\primary" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\resources" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\qualifier" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\autowired" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\value" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -54,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpeechSynthesizer">
-    <configuration name="DocumentCorrectionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="qynutils.DocumentCorrectionUtils" />
-      <module name="aliAI" />
+  <component name="RunManager" selected="Application.Test (5)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aqqje.springannotation.injections.value.Test" />
+      <module name="spring-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="qynutils.*" />
+          <option name="PATTERN" value="com.aqqje.springannotation.injections.value.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeechSynthesizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nls.tts.realse.SpeechSynthesizer" />
-      <module name="aliAI" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aqqje.springannotation.injections.autowired.Test" />
+      <module name="spring-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nls.tts.realse.*" />
+          <option name="PATTERN" value="com.aqqje.springannotation.injections.autowired.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,15 +92,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubtitleUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subtitle.SubtitleUtils" />
-      <module name="aliAI" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aqqje.springannotation.injections.qualifier.Test" />
+      <module name="spring-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="subtitle.*" />
+          <option name="PATTERN" value="com.aqqje.springannotation.injections.qualifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aqqje.springannotation.injections.resources.Test" />
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aqqje.springannotation.injections.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aqqje.springannotation.injections.primary.Test" />
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aqqje.springannotation.injections.primary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAnnotationApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-annotation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aqqje.springannotation.SpringAnnotationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-annotation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springannotation.SpringAnnotationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,9 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpeechSynthesizer" />
-        <item itemvalue="Application.SubtitleUtils" />
-        <item itemvalue="Application.DocumentCorrectionUtils" />
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +275,8 @@
       <workItem from="1594305835097" duration="216000" />
       <workItem from="1594306787043" duration="86000" />
       <workItem from="1594307006341" duration="121000" />
+      <workItem from="1597105065446" duration="8873000" />
+      <workItem from="1597117705801" duration="9333000" />
     </task>
     <task id="LOCAL-00001" summary="gper-springboot -&gt; add spring-cloud-ribbon-test">
       <created>1593941915459</created>
@@ -237,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593950016094</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ali: update =&gt; 2020-08-10">
+      <created>1597072376026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597072376026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +321,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gper-springboot -&gt; add spring-cloud-ribbon-test" />
     <MESSAGE value="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance" />
+    <MESSAGE value="Ali: update =&gt; 2020-08-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ali: update =&gt; 2020-08-10" />
   </component>
 </project>
