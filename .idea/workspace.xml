@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gper-spring/spring-annotation/src/main/java/com/aqqje/springannotation/configures/imports/MyFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gper-spring/spring-annotation/src/main/java/com/aqqje/springannotation/configures/imports/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" afterDir="false" />
     </list>
@@ -276,7 +271,7 @@
       <workItem from="1594306787043" duration="86000" />
       <workItem from="1594307006341" duration="121000" />
       <workItem from="1597105065446" duration="8873000" />
-      <workItem from="1597117705801" duration="9333000" />
+      <workItem from="1597117705801" duration="9708000" />
     </task>
     <task id="LOCAL-00001" summary="gper-springboot -&gt; add spring-cloud-ribbon-test">
       <created>1593941915459</created>
@@ -299,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597072376026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gper: spring-annotation =&gt; configures &amp;&amp; injections">
+      <created>1597128184716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597128184717</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +324,7 @@
     <MESSAGE value="gper-springboot -&gt; add spring-cloud-ribbon-test" />
     <MESSAGE value="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance" />
     <MESSAGE value="Ali: update =&gt; 2020-08-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ali: update =&gt; 2020-08-10" />
+    <MESSAGE value="gper: spring-annotation =&gt; configures &amp;&amp; injections" />
+    <option name="LAST_COMMIT_MESSAGE" value="gper: spring-annotation =&gt; configures &amp;&amp; injections" />
   </component>
 </project>
