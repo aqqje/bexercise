@@ -2,28 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-principle-handwrite" />
         <module name="ispringmvc" />
         <module name="redission-spring-boot-starter" />
-        <module name="framework" />
         <module name="web-front-end" />
-        <module name="gper-spring" />
+        <module name="spring-cloud-order-serivce-2" />
         <module name="data-base-driver" />
+        <module name="aqqje-spring-boot-starter-demo" />
         <module name="ISpring" />
         <module name="nowcoder" />
-        <module name="aqqje-spring-boot-starter-demo" />
+        <module name="interview" />
         <module name="spring-cloud-order-serivce-1" />
         <module name="javaweb" />
+        <module name="gper-spring" />
         <module name="sql" />
-        <module name="spring-cloud-order-serivce-2" />
         <module name="javase" />
         <module name="mysql-dirver" />
         <module name="spring-annotation" />
         <module name="spring-cloud-user-service" />
-        <module name="interview" />
+        <module name="framework" />
         <module name="springmvc-demo" />
         <module name="gper-pattern" />
         <module name="spring-boot-demo" />
