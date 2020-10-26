@@ -2,31 +2,32 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="spring-principle-handwrite:war exploded" />
+      <artifact name="gper-spring:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="gper: spring-principle-handwrite =&gt; v1">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/aliAI/src/main/java/nls/tts/realse/SpeechSynthesizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/mvc/action/DemoAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/mvc/action/TestAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/mvc/action/TwoAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/service/IDemoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/demo/service/impl/DemoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPAutowired.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPRequestMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPRequestParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/annotation/GPService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv2/GPDispatcherServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/gpv3/GPDispatcherServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv2/OMDispatcherServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/java/com/gper/mvcframework/v1/mvcframework/servlet/omv3/OMDispatcherServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/Controller/DemoAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQAutowired.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQRequestMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQRequestParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/service/IDemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/service/impl/DemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/AQDispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/AQDispatcherServlet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/AQDispatcherServlet3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/example/GPDispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/example/GPDispatcherServlet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQAutowired.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQRequestMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQRequestParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +58,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\AqqJe\Env\Maven\Maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Env/Maven/Apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="C:\AqqJe\Env\Maven\Apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1eGBJLKoriYFfsDDnSnI4LekIss" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -65,27 +75,27 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31911764" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aqqje.v2.spring.framework.webmvc.servlet" />
       <recent name="com.aqqje.v1.spring.framework.servlet.example" />
       <recent name="com.aqqje.v1.spring.framework.servlet" />
       <recent name="com.aqqje.v1.spring.framework.Controller" />
       <recent name="com.aqqje.springannotation.configures.imports" />
-      <recent name="com.aqqje.springcloudorderserivce1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-principle-handwrite\src\main\java\com\aqqje\v3\spring\framework" />
+      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-principle-handwrite\src\main\java\com\aqqje\v2\spring\framework" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-principle-handwrite\src\main\java\com\aqqje\v1\spring\framework" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-principle-handwrite\src\main\webapp\WEB-INF" />
       <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\primary" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\resources" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\qualifier" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -100,20 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.53-xms">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aqqje.springannotation.injections.value.Test" />
-      <module name="spring-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aqqje.springannotation.injections.value.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 6.0.9">
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aqqje.springannotation.injections.autowired.Test" />
       <module name="spring-annotation" />
@@ -162,6 +159,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aqqje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aqqje" />
+      <module name="nowcoder" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,7 +219,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.53-xms" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.53-xms" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+    <configuration name="Tomcat 6.0.9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.9" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="spring-principle-handwrite:war exploded">
@@ -351,11 +355,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.Test (5)" />
+      <item itemvalue="Application.aqqje" />
       <item itemvalue="Spring Boot.SpringAnnotationApplication" />
       <item itemvalue="Spring Boot.SpringAnnotationApplication (1)" />
       <item itemvalue="Spring Boot.SpringBootDemoApplication" />
@@ -363,15 +367,15 @@
       <item itemvalue="Spring Boot.SpringCloudOrderSerivce2Application" />
       <item itemvalue="Spring Boot.SpringCloudUserSerivceApplication" />
       <item itemvalue="Spring Boot.SpringCloudUserServiceApplication" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.53-xms" />
+      <item itemvalue="Tomcat Server.Tomcat 6.0.9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aqqje" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +411,20 @@
       <workItem from="1597633666839" duration="553000" />
       <workItem from="1597634478134" duration="20415000" />
       <workItem from="1597724870451" duration="8488000" />
-      <workItem from="1597745301375" duration="4042000" />
+      <workItem from="1597745301375" duration="6388000" />
+      <workItem from="1597999968979" duration="1872000" />
+      <workItem from="1598009326551" duration="46000" />
+      <workItem from="1598538415175" duration="601000" />
+      <workItem from="1598623241984" duration="3069000" />
+      <workItem from="1598662344863" duration="1038000" />
+      <workItem from="1598792679710" duration="2076000" />
+      <workItem from="1598835547113" duration="76000" />
+      <workItem from="1598930673774" duration="624000" />
+      <workItem from="1600268417208" duration="3059000" />
+      <workItem from="1600272533283" duration="415000" />
+      <workItem from="1600304162781" duration="187000" />
+      <workItem from="1600681799035" duration="67000" />
+      <workItem from="1603714353760" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="gper-springboot -&gt; add spring-cloud-ribbon-test">
       <created>1593941915459</created>
@@ -465,7 +482,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597749032335</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gper: spring-principle-handwrite =&gt; v1">
+      <created>1597749694594</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597749694594</updated>
+    </task>
+    <task id="LOCAL-00010" summary="gper: spring-principle-handwrite =&gt; v1">
+      <created>1598625487723</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598625487723</updated>
+    </task>
+    <task id="LOCAL-00011" summary="nowcoder: update =&gt; pom.xml">
+      <created>1598625562014</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598625562014</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +549,8 @@
     <MESSAGE value="Ali: update =&gt; 2020-08-10" />
     <MESSAGE value="gper: spring-annotation =&gt; configures &amp;&amp; injections" />
     <MESSAGE value="gper: spring-principle-handwrite =&gt; v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="gper: spring-principle-handwrite =&gt; v1" />
+    <MESSAGE value="nowcoder: update =&gt; pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="nowcoder: update =&gt; pom.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,14 +571,9 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/AQDispatcherServlet.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/AQDispatcherServlet3.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="46" />
+          <line>237</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

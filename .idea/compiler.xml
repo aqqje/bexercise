@@ -7,28 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-principle-handwrite" />
         <module name="ispringmvc" />
         <module name="redission-spring-boot-starter" />
-        <module name="web-front-end" />
-        <module name="spring-cloud-order-serivce-2" />
+        <module name="springmvc-demo" />
+        <module name="gper-spring" />
         <module name="data-base-driver" />
         <module name="aqqje-spring-boot-starter-demo" />
         <module name="ISpring" />
         <module name="nowcoder" />
         <module name="interview" />
-        <module name="spring-cloud-order-serivce-1" />
+        <module name="spring-cloud-order-serivce-2" />
         <module name="javaweb" />
-        <module name="gper-spring" />
+        <module name="springmvc-dome" />
         <module name="sql" />
         <module name="javase" />
         <module name="mysql-dirver" />
+        <module name="spring-boot-demo" />
         <module name="spring-annotation" />
+        <module name="spring-cloud-order-serivce-1" />
         <module name="spring-cloud-user-service" />
         <module name="framework" />
-        <module name="springmvc-demo" />
         <module name="gper-pattern" />
-        <module name="spring-boot-demo" />
+        <module name="web-front-end" />
         <module name="aliAI" />
         <module name="driver-app-demo" />
       </profile>
@@ -36,6 +36,7 @@
     <bytecodeTargetLevel>
       <module name="spring-cloud-user-serivce" target="1.8" />
       <module name="spring-cloud-user-serivce (2)" target="1.8" />
+      <module name="spring-principle-handwrite" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
