@@ -6,28 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/Controller/DemoAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQAutowired.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQRequestMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQRequestParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/annotation/AQService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/service/IDemoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/service/impl/DemoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/AQDispatcherServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/AQDispatcherServlet2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/AQDispatcherServlet3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/example/GPDispatcherServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v1/spring/framework/servlet/example/GPDispatcherServlet2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQAutowired.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQRequestMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQRequestParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/java/com/aqqje/v2/spring/framework/annotation/AQService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gper-spring/spring-principle-handwrite/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+    <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="spring-principle-handwrite =&gt; delete">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +55,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper-spring/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -424,7 +404,8 @@
       <workItem from="1600272533283" duration="415000" />
       <workItem from="1600304162781" duration="187000" />
       <workItem from="1600681799035" duration="67000" />
-      <workItem from="1603714353760" duration="273000" />
+      <workItem from="1603714353760" duration="747000" />
+      <workItem from="1603715157733" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="gper-springboot -&gt; add spring-cloud-ribbon-test">
       <created>1593941915459</created>

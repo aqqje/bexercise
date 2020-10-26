@@ -18,19 +18,19 @@
         <module name="interview" />
         <module name="spring-cloud-order-serivce-2" />
         <module name="javaweb" />
-        <module name="springmvc-dome" />
+        <module name="web-front-end" />
         <module name="sql" />
         <module name="javase" />
         <module name="mysql-dirver" />
-        <module name="spring-boot-demo" />
         <module name="spring-annotation" />
-        <module name="spring-cloud-order-serivce-1" />
+        <module name="springmvc-dome" />
         <module name="spring-cloud-user-service" />
         <module name="framework" />
-        <module name="gper-pattern" />
-        <module name="web-front-end" />
-        <module name="aliAI" />
         <module name="driver-app-demo" />
+        <module name="gper-pattern" />
+        <module name="spring-boot-demo" />
+        <module name="aliAI" />
+        <module name="spring-cloud-order-serivce-1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
