@@ -5,24 +5,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.aqqje</groupId>
-  <artifactId>gper-spring</artifactId>
+  <artifactId>spring-demo-1</artifactId>
   <version>1.0</version>
-  <modules>
-    <module>spring-demo-1</module>
-  </modules>
-  <packaging>pom</packaging>
-
-  <name>gper-spring</name>
+  <packaging>war</packaging>
 
   <properties>
-    <!-- dependency versions -->
     <servlet.api.version>2.4</servlet.api.version>
   </properties>
 
-
   <dependencies>
-
-    <!-- requied start -->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
@@ -34,22 +25,7 @@
   </dependencies>
 
   <build>
-    <finalName>gper-spring</finalName>
-<!--    <resources>-->
-<!--      <resource>-->
-<!--        <directory>${basedir}/src/main/resources</directory>-->
-<!--        <includes>-->
-<!--          <include>**/*</include>-->
-<!--        </includes>-->
-<!--      </resource>-->
-<!--      <resource>-->
-<!--        <directory>${basedir}/src/main/java</directory>-->
-<!--        <excludes>-->
-<!--          <exclude>**/*.java</exclude>-->
-<!--          <exclude>**/*.class</exclude>-->
-<!--        </excludes>-->
-<!--      </resource>-->
-<!--    </resources>-->
+    <finalName>spring-demo-1</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
