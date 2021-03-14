@@ -7,9 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d27c43fa-b746-40a7-927e-61b59b0924bb" name="Default Changelist" comment="spring-principle-handwrite =&gt; delete">
+      <change afterPath="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_2_设计模式/1_七大软件设计原则/作业/作业.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_2_设计模式/2_设计模式总监及工厂模式/课堂预习/设计模式总览及工厂模式-课前预习.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,21 +47,36 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\AqqJe\Env\Maven\Maven-repo" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../../Env/Maven/Maven-repo" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../Env/Maven/Apache-maven-3.6.2" />
-        <option name="userSettingsFile" value="C:\AqqJe\Env\Maven\Apache-maven-3.6.2\conf\settings.xml" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../Env/Maven/Apache-maven-3.6.2/conf/settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1eGBJLKoriYFfsDDnSnI4LekIss" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper-spring/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_1_UML设计技巧/2_重新认识UML之时序图" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -63,6 +84,13 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_1节设计模式/2设计模式总监及工厂模式/课堂预习" />
+      <recent name="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_1节设计模式" />
+      <recent name="$PROJECT_DIR$/gper/p6/第五期" />
+      <recent name="$PROJECT_DIR$/gper/p6/第二章架构师内功心法/2_1节设计模式/1七大软件设计原则" />
+      <recent name="$PROJECT_DIR$/gper" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aqqje.v2.spring.framework.webmvc.servlet" />
       <recent name="com.aqqje.v1.spring.framework.servlet.example" />
@@ -71,24 +99,12 @@
       <recent name="com.aqqje.springannotation.configures.imports" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-principle-handwrite\src\main\java\com\aqqje\v3\spring\framework" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-principle-handwrite\src\main\java\com\aqqje\v2\spring\framework" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-principle-handwrite\src\main\java\com\aqqje\v1\spring\framework" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-principle-handwrite\src\main\webapp\WEB-INF" />
-      <recent name="C:\AqqJe\Workspace\gitee\bexercise\gper-spring\spring-annotation\src\main\java\com\aqqje\springannotation\injections\primary" />
+      <recent name="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_1_UML设计技巧/2_重新认识UML之时序图" />
+      <recent name="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_1_UML设计技巧/1_重新认识UML之类图" />
+      <recent name="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_1节设计模式/2设计模式总监及工厂模式" />
+      <recent name="$PROJECT_DIR$/gper/p6/第五期/第二章架构师内功心法/2_1节设计模式/1七大软件设计原则/课堂预习" />
+      <recent name="$PROJECT_DIR$/gper/p6/第二章架构师内功心法" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 6.0.9">
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -359,6 +375,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -406,6 +425,7 @@
       <workItem from="1600681799035" duration="67000" />
       <workItem from="1603714353760" duration="747000" />
       <workItem from="1603715157733" duration="295000" />
+      <workItem from="1615727694619" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="gper-springboot -&gt; add spring-cloud-ribbon-test">
       <created>1593941915459</created>
@@ -525,6 +545,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gper-springboot -&gt; add spring-cloud-ribbon-test" />
     <MESSAGE value="gper-springboot -&gt; add spring-cloud-ribbon-test LoadBalance" />
     <MESSAGE value="Ali: update =&gt; 2020-08-10" />
@@ -532,6 +553,36 @@
     <MESSAGE value="gper: spring-principle-handwrite =&gt; v1" />
     <MESSAGE value="nowcoder: update =&gt; pom.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="nowcoder: update =&gt; pom.xml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="152" key="CommitChangelistDialog2" timestamp="1615727803795">
+      <screen x="0" y="23" width="1879" height="1057" />
+    </state>
+    <state x="550" y="152" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1879.1057@0.23.1879.1057" timestamp="1615727803795" />
+    <state width="1837" height="290" key="GridCell.Tab.0.bottom" timestamp="1615727799194">
+      <screen x="0" y="23" width="1879" height="1057" />
+    </state>
+    <state width="1837" height="290" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1879.1057@0.23.1879.1057" timestamp="1615727799194" />
+    <state width="1837" height="290" key="GridCell.Tab.0.center" timestamp="1615727799194">
+      <screen x="0" y="23" width="1879" height="1057" />
+    </state>
+    <state width="1837" height="290" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1879.1057@0.23.1879.1057" timestamp="1615727799194" />
+    <state width="1837" height="290" key="GridCell.Tab.0.left" timestamp="1615727799194">
+      <screen x="0" y="23" width="1879" height="1057" />
+    </state>
+    <state width="1837" height="290" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1879.1057@0.23.1879.1057" timestamp="1615727799194" />
+    <state width="1837" height="290" key="GridCell.Tab.0.right" timestamp="1615727799194">
+      <screen x="0" y="23" width="1879" height="1057" />
+    </state>
+    <state width="1837" height="290" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1879.1057@0.23.1879.1057" timestamp="1615727799194" />
+    <state x="448" y="190" key="SettingsEditor" timestamp="1615728097516">
+      <screen x="0" y="23" width="1879" height="1057" />
+    </state>
+    <state x="448" y="190" key="SettingsEditor/-1920.23.1920.1057/0.23.1879.1057@0.23.1879.1057" timestamp="1615728097516" />
+    <state x="369" y="80" key="new project wizard" timestamp="1615727761362">
+      <screen x="0" y="23" width="1879" height="1057" />
+    </state>
+    <state x="369" y="80" key="new project wizard/-1920.23.1920.1057/0.23.1879.1057@0.23.1879.1057" timestamp="1615727761362" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
