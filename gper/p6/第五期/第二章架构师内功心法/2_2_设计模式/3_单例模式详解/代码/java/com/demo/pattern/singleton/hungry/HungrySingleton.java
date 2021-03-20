@@ -1,4 +1,4 @@
-package com.demo.pattern.singleton;
+package com.demo.pattern.singleton.hungry;
 
 /**
  * 饿汉式单例

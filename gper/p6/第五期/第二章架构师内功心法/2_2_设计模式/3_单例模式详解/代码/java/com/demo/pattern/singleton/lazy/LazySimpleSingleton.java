@@ -1,4 +1,4 @@
-package com.demo.pattern.lazy;
+package com.demo.pattern.singleton.lazy;
 
 /**
  * 懒汉式单例：在外部调用的时间进行加载

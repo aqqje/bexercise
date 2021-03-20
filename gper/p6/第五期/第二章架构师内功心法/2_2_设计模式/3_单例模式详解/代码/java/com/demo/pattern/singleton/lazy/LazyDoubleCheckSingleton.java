@@ -1,10 +1,10 @@
-package com.demo.pattern.lazy;
+package com.demo.pattern.singleton.lazy;
 
 /**
  * 懒汉式：双重检测锁
  *
  * 优点： 性能高了，线程安全
- * 缺点： 可读性难度加大， 不够优雅
+ * 缺点： 可读性难度加大，不够优雅
  */
 public class LazyDoubleCheckSingleton {
     /**
