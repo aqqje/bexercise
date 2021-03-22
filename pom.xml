@@ -21,6 +21,7 @@
         <module>gper-spring</module>
         <module>aliAI</module>
         <module>gper-springboot</module>
+        <module>gper</module>
     </modules>
     <dependencies>
         <dependency>
