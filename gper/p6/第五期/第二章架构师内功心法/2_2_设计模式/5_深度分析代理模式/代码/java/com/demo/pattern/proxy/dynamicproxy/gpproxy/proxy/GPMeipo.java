@@ -3,7 +3,6 @@ package com.demo.pattern.proxy.dynamicproxy.gpproxy.proxy;
 import com.demo.pattern.proxy.dynamicproxy.jdkproxy.IPerson;
 
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 
 public class GPMeipo implements GPInvocationHandler {
 
@@ -13,7 +12,7 @@ public class GPMeipo implements GPInvocationHandler {
         this.target = target;
         Class<?> clazz = target.getClass();
 
-        return (IPerson) Proxy.newProxyInstance(clazz.getClassLoader(), clazz
+        return (IPerson) GPPorxy.newProxyInstance(new GPClassLoader(), clazz
         .getInterfaces(), this);
     }
 
