@@ -22,6 +22,7 @@
         <module>aliAI</module>
         <module>gper-springboot</module>
         <module>gper</module>
+        <module>software-designer-exam</module>
     </modules>
     <dependencies>
         <dependency>
