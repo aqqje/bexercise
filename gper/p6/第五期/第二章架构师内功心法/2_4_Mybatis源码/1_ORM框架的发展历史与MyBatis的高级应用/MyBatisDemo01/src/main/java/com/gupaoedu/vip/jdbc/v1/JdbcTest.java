@@ -26,7 +26,7 @@ public class JdbcTest {
             // 注册 JDBC 驱动
             // Class.forName("com.mysql.cj.jdbc.Driver");
             // 打开连接
-            conn = DriverManager.getConnection("jdbc:mysql://124.71.29.101:3306/mybatisdb?characterEncoding=utf-8&serverTimezone=UTC", "root", "changle@1999");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mybatisdb?characterEncoding=utf-8&serverTimezone=UTC", "root", "changle@1999");
             // 执行查询
             stmt = conn.createStatement();
             String sql = "SELECT id,user_name,real_name,password,age,d_id from t_user where id = 1";

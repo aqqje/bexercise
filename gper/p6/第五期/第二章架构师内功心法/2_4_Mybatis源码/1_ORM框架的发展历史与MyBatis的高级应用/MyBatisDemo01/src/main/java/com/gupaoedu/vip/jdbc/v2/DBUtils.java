@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class DBUtils {
 
-    private static final String JDBC_URL = "jdbc:mysql://124.71.29.101:3306/mybatisdb?characterEncoding=utf-8&serverTimezone=UTC";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/mybatisdb?characterEncoding=utf-8&serverTimezone=UTC";
     private static final String JDBC_NAME = "root";
     private static final String JDBC_PASSWORD = "changle@1999";
 

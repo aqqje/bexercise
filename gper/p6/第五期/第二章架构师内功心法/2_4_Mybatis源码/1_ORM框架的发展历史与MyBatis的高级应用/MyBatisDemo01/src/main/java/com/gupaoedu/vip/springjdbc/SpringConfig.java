@@ -17,7 +17,7 @@ public class SpringConfig {
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setUsername("root");
         dataSource.setPassword("changle@1999");
-        dataSource.setUrl("jdbc:mysql://124.71.29.101:3306/mybatisdb?characterEncoding=utf-8&serverTimezone=UTC");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/mybatisdb?characterEncoding=utf-8&serverTimezone=UTC");
         return  dataSource;
     }
 
