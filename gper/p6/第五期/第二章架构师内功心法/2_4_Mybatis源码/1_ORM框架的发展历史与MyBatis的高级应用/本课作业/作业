@@ -1,0 +1,4 @@
+创建一个自定义的TypeHandler，要求实现List到VARCHAR的转换。
+比如：User中有个属性的类型是List 类型，对应的保存到数据库中的字段为VARCHAR类型。
+要通过TypeHandler在插入的时候把List类型数据转换为String类型处理，
+在查询的时候要把查询得到的字符串转换为List类型。作业要求把核心的代码贴上来
